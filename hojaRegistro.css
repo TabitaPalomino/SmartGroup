@@ -1,0 +1,24 @@
+h1 {
+	color: blue;
+	text-align: center;
+}
+#cuerpo {
+	border: 2px solid blue;
+	margin:auto;
+	width:1000px;
+}
+#izquierda {
+	float: left;
+	text-align:left;
+	border:1px solid red;
+	width:45%;
+}
+#derecha {
+	float:none;
+	text-align: center;
+	border: 1px solid red;
+	width:auto;
+}
+#pie {
+	text-align:center;
+}
