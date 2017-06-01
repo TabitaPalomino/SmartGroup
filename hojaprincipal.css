@@ -1,0 +1,102 @@
+body {
+	margin:0px;
+	
+	
+}
+body > *{
+	margin:5px;
+}
+
+header{
+	border:1px solid blue;
+}
+#contexto{
+	
+}
+a{
+	text-decoration:none;
+}
+
+#s1{
+	float:left;
+	margin-bottom:0px;
+	width:30%;
+	padding-left:10px;
+	padding-top:10px;
+}
+#s3{
+	float:right;
+	width:30%;
+}
+#s3 ul li{
+	display:inline;
+	margin-right:5px;
+}
+
+#s3 ul{
+	
+	display:inline;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+#s2{
+	margin-left:30%;
+	margin-right:30%;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#br1{
+	width:70%;
+}
+#contexto ul li{
+	display:inline;
+}
+#contexto ul{
+	text-align:center;
+}
+#contexto ul li a{
+	font-size:20px;
+	margin-left:5%;
+	margin-right:6%;
+}
+#contexto p{
+	margin-left:5%;
+}
+
+#izquierda{
+	float:left;
+	width:75%;
+}
+#izquierda > *{
+}
+h3{
+	text-align:center;
+}
+#grupos{
+	float:left;
+	width:30%;
+}
+#cursos{
+	float:right;
+	width:30%;
+}
+#asesorias{
+	margin-left:30%;
+	margin-right:30%;
+}
+#derecha{
+	float:right;
+	width:24%
+}
+#derecha img{
+	width:200px;
+	height:100px;
+}
+footer{
+	font-size:20px;
+	padding:5px;
+	clear:both;
+	text-align:center;
+}
