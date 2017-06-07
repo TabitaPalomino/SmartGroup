@@ -182,3 +182,165 @@ footer{
 	clear:both;
 	text-align:center;
 }
+
+/*HOJA DE REGISTRO*/
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+#cuerpo {
+	font-family:Arial;
+	border: 2px solid black;
+	margin:auto;
+	width:900px;
+	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
+}
+
+#izquierda {
+	float: left;
+	text-align:left;
+	width:45%;
+	padding:10px;
+	
+}
+#derecha {
+	float:none;
+	text-align: left;
+	border: 1px solid black;
+	width:auto;
+	padding:10px;
+	
+}
+
+#imagen_forma {
+	float:left;
+	text-align: justify;
+}
+#letras_forma {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma2 {
+	float:left;
+	text-align: justify;
+	padding-left:20px;
+}
+#letras_forma2 {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma3 {
+	float:left;
+	text-align: justify;
+	padding-left:40px;
+}
+#letras_forma3 {
+	margin-left:30%;
+	padding:17px;
+}
+
+/*INICIAR SESION*/
+#inicioSesion{
+    border:2px solid #cccccc;
+    text-align: center;
+    padding: 2px 0 20px 0;
+    min-height: 250px; 
+    width: 450px;
+    margin:150px auto 30px auto;
+	border-radius: 6px;
+}
+
+#cabecera{
+    text-align: left;
+    padding-left: 20px;
+   
+}
+
+#titulo{
+    font-weight: bold;
+}
+
+#nombrec{
+   display:inline;
+   padding-right:10px;
+}
+
+#nombrecontra{
+    display:inline;
+	padding-right:57px;
+}
+
+#seccionCorreo{
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+#seccionContraseña{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+#conectar{
+	padding-top:25px;
+	padding-bottom:30px;
+}
+
+/*OLVIDE MI CONTRASEÑA*/
+#titulo{
+	text-align:center;
+	padding-bottom:30px;
+	
+}
+
+#lab{
+	float:left;
+
+	text-align:center;
+}
+#inp{
+	text-align:center;
+	margin-left:25%;
+	width:50%;
+	
+}
+#seccion{
+	border:1px solid black;
+	margin-top:10%;
+	padding: 80px 15px 80px 15px;
+}
+#listo{
+	width:15%;
+	margin-left:43%;
+}
+#sec2{
+	padding-top:20px;
+}
+
+/*RECUPERAR CONTRASEÑA*/
+#sec{
+	border:1px solid black;
+	margin-top:10%;
+	padding: 80px 15px 80px 15px;
+}
+#ti{
+	text-align:center;
+}
+#text{
+	text-align:center;
+	padding-top:2%;
+	
+}
+#sec2{
+	padding-top:20px;
+}
+#listo{
+	width:15%;
+	margin-left:43%;
+}
+#sec2{
+	padding-top:20px;
+}
+
+/*CONFIRMAR CONTRASEÑA*/
+MEJORAR
