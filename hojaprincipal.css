@@ -1,16 +1,11 @@
+/* PAGINA PRINCIPAL */
+
 body {
 	margin:0px;
 	font-family: Arial;
-	background-color: #F9F9F9;
+	background-image:ur(https://i0.wp.com/www.labrujulaverde.com/wp-content/uploads/2016/05/shutterstock_297702716_800x515.jpg?resize=740%2C476);
 }
 
-#contenedor{
-    width:99%;
-    /*border:1px solid red;*/
-    margin:5px;
-}
-
-/*----- CABECERA -----*/
 header{
 	/*background-color: #D4E9FF;*/
 	border-bottom:2px solid #FFFFFF;
@@ -23,50 +18,52 @@ header{
 a{
 	text-decoration:none;
 }
-/*-----------*/
+h3{text-align:center;}
+footer{
+	font-size:20px;
+	padding:5px;
+	clear:both;
+	text-align:center;
+}
+
+#contenedor{
+    width:70%;
+    /*border:1px solid red;*/
+    margin:auto;
+}
+#logo{
+	width:100px;
+}
 #s1{
 	float:left;
 	margin-bottom:0px;
 	width:35%;
-	padding-left:10px;
 	padding-top:10px;
 	min-height: 70px;
 }
-
-#s1 img{
-	width:410px;
-}
-
-#logo{
-    width: 230px;
-}
-/*-----------*/
-
-/*-----*/
+#s1 img{width:350px;}
 #s3{
 	float:right;
 	width:30%;
-	margin:3px;
-	text-align: center;
+	margin:0px;
+	text-align: left;
 	min-height: 70px;
 }
 #s3 ul li{
 	display:inline;
-	margin-right:15px;
+	margin-right:10px;
+	margin-left:0px;
 }
-
 #s3 ul{
 	display:inline;
 	float:left;
-	margin-top:10px;
-	margin-right:5px;
-	margin-left:50px;
-}
-#inicio{
-    margin:10px 40px 0px 5px;
+	margin-top:8px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:10px;
 }
 
-/* redes sociales*/
+#inicio{margin:10px 40px 0px 0px;}
 #facebook{
     width: 35px;
     margin:20px 10px 5px 53px;
@@ -85,22 +82,16 @@ a{
     margin:20px 5px 5px 5px;
 }
 
-/*--------------*/
 #iconoI{
     width: 20px;
     margin-left: 2px;
     margin-top: 10px;
 }
-
 #iconoR{
     width: 20px;
     margin-left: 2px;
     margin-top: 10px;
 }
-/*------*/
-
-
-
 #s2{
 	margin-left:35%;
 	margin-right:30%;
@@ -113,18 +104,11 @@ a{
 	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
 	background-repeat: no-repeat;
 	background-size: 200px;
-    background-position: 130px;
+    background-position: 45px;
 	
 }
-#busqueda{
-    padding-top: 27px;
-}
-
-
-#br1{
-	width:70%;
-}
-
+#busqueda{padding-top: 27px;}
+#br1{width:70%;}
 #contexto{
     background-color: #047ECE;
     text-align: center;
@@ -147,15 +131,14 @@ a{
 }
 /* ----FIN DE CABECERA ----*/
 
+
 #izquierda{
 	float:left;
 	width:75%;
 }
 #izquierda > *{
 }
-h3{
-	text-align:center;
-}
+
 #grupos{
 	float:left;
 	width:30%;
@@ -176,18 +159,18 @@ h3{
 	width:200px;
 	height:100px;
 }
-footer{
-	font-size:20px;
-	padding:5px;
-	clear:both;
-	text-align:center;
+#pie1{
+	float:left;
 }
 
+
+
+
 /*HOJA DE REGISTRO*/
-h1 {
+/*h1 {
 	color: blue;
 	text-align: center;
-}
+}*/
 
 #cuerpo {
 	font-family:Arial;
@@ -317,30 +300,115 @@ h1 {
 	padding-top:20px;
 }
 
-/*RECUPERAR CONTRASEÑA*/
-#sec{
-	border:1px solid black;
-	margin-top:10%;
-	padding: 80px 15px 80px 15px;
-}
-#ti{
-	text-align:center;
-}
-#text{
-	text-align:center;
-	padding-top:2%;
-	
-}
-#sec2{
-	padding-top:20px;
-}
-#listo{
-	width:15%;
-	margin-left:43%;
-}
-#sec2{
-	padding-top:20px;
+/*ASESORIA PRESENCIAL*/
+img{
+    width: 180px;
 }
 
-/*CONFIRMAR CONTRASEÑA*/
-MEJORAR
+h1{
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+/*p{
+    font-weight: bold;
+    text-align: center;
+    color:#B72A0B;
+    font-size: 18px;
+    
+}*/
+
+#principal{
+    float: left;
+    width: 70%;
+}
+#lateral{
+    margin-left: 70%;
+    text-align: center;
+    min-height:500px;
+    border-left:2px  dashed #ff6a00;
+    background-color: #FCFBEC;
+}
+
+#ingles{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+
+#cuv{
+    margin-left: 30%;
+    text-align: center;
+    margin-top:8px;
+}
+
+#fi1{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+
+#agregar{
+    float:left;
+    width: 30%;
+    text-align: center;
+    margin-left: 200px;
+}
+
+#imgagregar{
+    width: 120px;
+}
+
+
+div{
+    margin-top:50px;
+    margin-left: 100px;
+}
+
+#lateral > a > img{
+    min-height:450px;
+    width: 350px;
+}
+
+/*SOMI ASESORIA*/
+		/*h1, h2, p{
+			margin-left:25px;
+		}
+		
+		h1{
+			text-shadow: 2px 2px #94AAB6;
+			font-size: 40px;
+		}*/
+		
+		
+		#grupo1, #grupo2, #grupo3, #grupo4, #grupo5{
+			float: left;
+			padding-left:15px;
+			text-align: justify;
+			
+		}
+		
+		.izquierda{
+			float: left;
+			margin:30px;
+		}
+		#uno{
+			width:70%;
+			border: 1px solid black;
+			float:left;
+		}
+		#lateral{
+			text-align:center;
+			min-height:300px;
+			background-color:red;
+			
+			margin-left:70%;
+		}
+		.derecha{
+			margin:40px;
+		}
+		
+		#unirme{
+			text-align:center;
+			margin-left:50%;
+		}
