@@ -1,0 +1,62 @@
+h1 {
+	color: blue;
+	text-align: center;
+}
+body{
+	/*background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHCA0HBwsRBwcHDw0HBwcHCA8ICQcNFREWFhUREx8YHSggGCYlJxMfITEhJSkrLi4uFx8zODMsNygtLjcBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMkA+wMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQMCBAf/xAAYEAEAAwEAAAAAAAAAAAAAAAAAAQIREv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD1GsKRUqwpWAEVairUVbioJ8nyrFT5BHkcrcjkEeRytyOQR5HK3I5BHkcrcjkEeRytyOQR5HK3I5BHkcrcjkEeRytyOQR5HK3I5BHkcrcjkEeSmq81ZmoOeaszVeasWqDntDGL2hOYBSkK1hOkLVgG6w3FSrCkQBRU+Wog8Bnkct4MBjkct4MBjkct4MBjkct4MBjkct4MBjkct4MBjkct4MBjkct4MBjkct4MBjkct4MBOaszVWYZmARmE7QvaErQCFoTmFrwlMA3RaqNFqgrVSE6qQDcQeFDQFgwwBYMMAWDDAFgwwBYMMAWDDAFgwwBYMMAWDDAFgwwDMwzLcsyCdkrK2SsCN0pVumDVFaoUWqC9VKo1UqCkNMQ0BggBggBggBggBggBggBggBggBggBggAlmTliQZslZSyVgTslKl0pkDotVCi9QVqpVKqkApBswYNBkA0GQDQZANBkA0GQDQZANBkA0GQDQZANBkAcsScsyDNkrKWSsCd0lLoyB0Xq56L1BaG6pw3UFIaYhoDBADBADBADBADBADBADBADBADBADBABLMnLEgzZOzdk7AldKZUukB1WqhVasgtVSqVZbiQUhpiJa0DBaNAwWjQMFo0DBaNAwWjQMFo0DBaNAwWjQMFo0DBaNASzJzLMyDMpWbmU7SCV027pTINUWqhRWsgvVuE6twCkSbES0BgtGgYLRoGC0aBgtGgYLRoGC0aBgtGgYLRoGC0aBgtGgJZk5ZmQZlOzcpWBOySlkpkDotVCi1QWqpCVVIBuJaYgwaBADBADBADBADBADBADBADBADBADBABLEy1LEgVkrKWSsCdkplS6UgdFqoUlasgtVuEqypEgpBsRLWgYLRoGC0aBgtGgYLRoGC0aBgtGgYLRoGC0aBgtGgYLRoCWZOZZmQZsnZu0p2kErpKXlPQFZWrLnpKtZBesqRKMS3EgrEnqcSegpo1jRoN6NY0aDejWNGg3o1jRoN6NY0aDejWNGg3o1jRoN6NY0aDejWNGg3o1jRoNTLMyWszIC0p2k5lO0gxeU5lq0pTICsq1lz1lStgdFZbiXPEtxYF4sfSMWPoFeh0l0OgV6HSXQ6BXodJdDoFeh0l0OgV6HSXQ6BXodJdDoFeh0l0OgV6HSXQ6BXodJdDoFeh0l0OgUmxTKc2KbA1MsWlmbMTYBaU9O0p6DNbNxZKGoBaLNRdKGgVi47SMFex2mAU7HaYBTsdpgFOx2mAU7HaYBTsdpgFOx2mAU7HaYBTsdpgFOx2mAb7KbsEDU2ZmxSxIC1mNOWAf/2Q==);*/
+}
+#cuerpo {
+	font-family:Arial;
+	border: 2px solid black;
+	margin:auto;
+	width:900px;
+	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
+}
+#izquierda {
+	float: left;
+	text-align:left;
+	width:45%;
+	padding:10px;
+	
+}
+#derecha {
+	float:none;
+	text-align: left;
+	border: 1px solid black;
+	width:auto;
+	padding:10px;
+	
+}
+#pie {
+	text-align:center;
+	padding-top:20px;
+}
+#imagen_forma {
+	float:left;
+	text-align: justify;
+}
+#letras_forma {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma2 {
+	float:left;
+	text-align: justify;
+	padding-left:20px;
+}
+#letras_forma2 {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma3 {
+	float:left;
+	text-align: justify;
+	padding-left:40px;
+}
+#letras_forma3 {
+	margin-left:30%;
+	padding:17px;
+}
+
+
+
