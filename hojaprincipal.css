@@ -170,6 +170,7 @@ footer{
 #cabeza_requi {
 	color: blue;
 	text-align: center;
+	border:1px solid red;
 }
 
 #cuerpo_requi {
@@ -193,6 +194,10 @@ footer{
 	border: 1px solid black;
 	width:auto;
 	padding:10px;	
+}
+.row > input {
+	height: 30px;
+	padding:0 10px;
 }
 
 #imagen_forma {
