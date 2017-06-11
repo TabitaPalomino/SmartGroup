@@ -3,6 +3,7 @@
 body {
 	margin:0px;
 	font-family: Arial;
+	size:20px;
 	background-image:ur(https://i0.wp.com/www.labrujulaverde.com/wp-content/uploads/2016/05/shutterstock_297702716_800x515.jpg?resize=740%2C476);
 }
 
@@ -167,50 +168,44 @@ footer{
 
 
 /*HOJA DE REGISTRO*/
-#cabeza_requi {
-	color: blue;
-	text-align: center;
-	border:1px solid red;
-}
-
-#cuerpo_requi {
+#cuerpo {
 	font-family:Arial;
 	border: 2px solid black;
 	margin:auto;
 	width:900px;
 	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
 }
-
-#izquierda_requi {
+#izquierda {
 	float: left;
 	text-align:left;
 	width:45%;
 	padding:10px;
 	
 }
-#derecha_requi {
+#derecha {
 	float:none;
 	text-align: left;
 	border: 1px solid black;
 	width:auto;
-	padding:10px;	
+	padding:10px;
+	
 }
-.row > input {
-	height: 30px;
-	padding:0 10px;
+#pie {
+	text-align:center;
+	padding-top:20px;
 }
-
 #imagen_forma {
 	float:left;
 	text-align: justify;
 }
 #letras_forma {
-	margin-left:35%;
+	margin-left:30%;
 	padding:17px;
 }
 #imagen_forma2 {
 	float:left;
 	text-align: justify;
+	padding-left:20px;
 }
 #letras_forma2 {
 	margin-left:30%;
@@ -219,6 +214,7 @@ footer{
 #imagen_forma3 {
 	float:left;
 	text-align: justify;
+	padding-left:40px;
 }
 #letras_forma3 {
 	margin-left:30%;
@@ -271,36 +267,6 @@ footer{
 	padding-bottom:30px;
 }
 
-/*OLVIDE MI CONTRASEÑA*/
-#titulo{
-	text-align:center;
-	padding-bottom:30px;
-	
-}
-
-#lab{
-	float:left;
-
-	text-align:center;
-}
-#inp{
-	text-align:center;
-	margin-left:25%;
-	width:50%;
-	
-}
-#seccion{
-	border:1px solid black;
-	margin-top:10%;
-	padding: 80px 15px 80px 15px;
-}
-#listo{
-	width:15%;
-	margin-left:43%;
-}
-#sec2{
-	padding-top:20px;
-}
 
 /*ASESORIA PRESENCIAL*/
 img{
