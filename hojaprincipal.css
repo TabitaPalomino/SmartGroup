@@ -1,21 +1,20 @@
+/* PAGINA PRINCIPAL */
+
 body {
 	margin:0px;
 	font-family: Arial;
-	background-color: #F9F9F9;
+	size:20px;
+	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
 }
 
-#contenedor{
-    width:99%;
-    /*border:1px solid red;*/
-    margin:5px;
-}
-
-/*----- CABECERA -----*/
 header{
 	/*background-color: #D4E9FF;*/
 	border-bottom:2px solid #FFFFFF;
 	min-height: 100px;
-	background-image:url(https://s-media-cache-ak0.pinimg.com/originals/6c/a1/f8/6ca1f840e455f92a161eb1e33e678198.jpg);
+	background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;	
 }
@@ -23,50 +22,49 @@ header{
 a{
 	text-decoration:none;
 }
-/*-----------*/
+h3{text-align:center;}
+
+#contenedor{
+    width:70%;
+    /*border:1px solid red;*/
+    margin:auto;
+	background-color:#F4F5F5;
+	box-shadow: 15px 0px 5px #090909;
+	box-shadow: 0px 0px 30px #090909;
+}
+#logo{
+	width:100px;
+}
 #s1{
 	float:left;
 	margin-bottom:0px;
 	width:35%;
-	padding-left:10px;
 	padding-top:10px;
 	min-height: 70px;
 }
-
-#s1 img{
-	width:410px;
-}
-
-#logo{
-    width: 230px;
-}
-/*-----------*/
-
-/*-----*/
+#s1 img{width:350px;}
 #s3{
 	float:right;
 	width:30%;
-	margin:3px;
-	text-align: center;
+	margin:0px;
+	text-align: left;
 	min-height: 70px;
 }
 #s3 ul li{
 	display:inline;
-	margin-right:15px;
+	margin-right:10px;
+	margin-left:0px;
 }
-
 #s3 ul{
 	display:inline;
 	float:left;
-	margin-top:10px;
-	margin-right:5px;
-	margin-left:50px;
-}
-#inicio{
-    margin:10px 40px 0px 5px;
+	margin-top:8px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:10px;
 }
 
-/* redes sociales*/
+#inicio{margin:10px 40px 0px 0px;}
 #facebook{
     width: 35px;
     margin:20px 10px 5px 53px;
@@ -85,22 +83,16 @@ a{
     margin:20px 5px 5px 5px;
 }
 
-/*--------------*/
 #iconoI{
-    width: 20px;
+    width: 15px;
     margin-left: 2px;
     margin-top: 10px;
 }
-
 #iconoR{
-    width: 20px;
+    width: 15px;
     margin-left: 2px;
     margin-top: 10px;
 }
-/*------*/
-
-
-
 #s2{
 	margin-left:35%;
 	margin-right:30%;
@@ -113,18 +105,11 @@ a{
 	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
 	background-repeat: no-repeat;
 	background-size: 200px;
-    background-position: 130px;
+    background-position: 45px;
 	
 }
-#busqueda{
-    padding-top: 27px;
-}
-
-
-#br1{
-	width:70%;
-}
-
+#busqueda{padding-top: 27px;}
+#br1{width:70%;}
 #contexto{
     background-color: #047ECE;
     text-align: center;
@@ -145,17 +130,25 @@ a{
 	margin-right:6%;
 	color:#FFFFFF;
 }
-/* ----FIN DE CABECERA ----*/
 
+#Panuncios{
+	text-align:center;
+	width:900px;
+	min-height:300px;
+	margin: 10px auto auto auto;
+}
+#anunn{
+	width:100%;
+	border-radius:3px;
+	box-shadow: 2px 2px 5px #090909;
+}
 #izquierda{
 	float:left;
 	width:75%;
 }
 #izquierda > *{
 }
-h3{
-	text-align:center;
-}
+
 #grupos{
 	float:left;
 	width:30%;
@@ -176,9 +169,403 @@ h3{
 	width:200px;
 	height:100px;
 }
-footer{
-	font-size:20px;
-	padding:5px;
+#pie1{
+	float:left;
+}
+
+#borde{
+	border:1px solid red;
+}
+#final{
+	margin:auto;
+	font-family: Helvetica Neuel;
+	font-size: 10px;	
+	min-height: 450px;
+	padding:10px;
 	clear:both;
+	background-image:url("img/lapiz.png");
+	background-size:100%, 100%;
+	background-repeat:no-repeat;
+	width:98%;}
+#m1,#m2, #m3{
+	float:left;
+	color: #0000FF;
+	list-style:none;
+	padding: 15px;
+	margin-bottom:-5%;}
+#lapiz{
+	padding-left:10%;
+	float:left;}
+#m1{
+	float:left;
+	padding-left:30%;}
+			
+.sombra{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Arial Black';}
+#m4{
+	clear:both;
+	margin-left: 20%;
+				}
+#m3{padding-right:30px;
+			}
+/*INICIAR SESION*/
+#contenedorIS{
+	width:70%;
+    margin:50px auto;
+	background-color:#F4F5F5;
+	box-shadow: 15px 0px 5px #090909;
+	box-shadow: 0px 0px 30px #090909;
+	min-height:600px;
+	
+}
+#logoIS{
+	width:40%;
+	margin:20px auto 10px auto;
+}
+#centroI{
 	text-align:center;
 }
+#inicioSesion{
+    box-shadow: 5px 0px 5px #090909;
+	box-shadow: 0px 0px 10px #090909;
+    text-align: center;
+    padding: 2px 0 20px 0;
+    min-height: 250px; 
+    width: 450px;
+    margin:10px auto 5px auto;
+	border-radius: 6px;
+}
+#re{
+	margin-top:20px;
+}
+#cabecera{
+    text-align: left;
+    padding-left: 20px;
+   
+}
+
+#titulo{
+    color:#262626;
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+#nombrec{
+   display:inline;
+   padding-right:10px;
+}
+
+#nombrecontra{
+    display:inline;
+	padding-right:57px;
+}
+
+#seccionCorreo{
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+#seccionContraseña{
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+#conectar{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#Binicios{
+	margin-top:20px;
+	
+    color: #000000;
+    text-align: center;
+    display: block;
+    border: none;
+    max-width: 470px;
+    width: 90%;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px auto 5px auto;
+    padding: 10px 0;
+    border-radius: 4px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+#Bregistro{
+    color: #000000;
+    text-align: center;
+    border: none;
+    max-width: 470px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px auto 5px auto;
+    padding: 10px 0;
+    border-radius: 4px;
+    line-height: 120%;
+}
+.correo{
+	width: 80%;
+    height: 35px;
+    background: white;
+    padding: 0 30px 0 15px;
+    line-height: normal;
+    font-family: Arial, regular;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    color: #111;
+}
+/*HOJA DE REGISTRO*/
+#cuerpo_requi {
+	font-family:Arial;
+	border: 2px solid black;
+	margin:auto;
+	width:900px;
+	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
+}
+#cabeza_requi {
+	border:1px solid red;
+	color:blue;
+	text-align:center;
+}
+#izquierda_requi {
+	float: left;
+	text-align:left;
+	width:45%;
+	padding:10px;
+	
+}
+#derecha_requi {
+	float:none;
+	text-align: left;
+	border: 1px solid black;
+	width:auto;
+	padding:10px;	
+}
+
+#imagen_forma {
+	float:left;
+	text-align: justify;
+}
+#letras_forma {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma2 {
+	float:left;
+	text-align: justify;
+}
+#letras_forma2 {
+	margin-left:30%;
+	padding:17px;
+}
+#imagen_forma3 {
+	float:left;
+	text-align: justify;
+}
+#letras_forma3 {
+	margin-left:30%;
+	padding:17px;
+}
+.row {
+	padding:10px;
+}
+
+/*ASESORIA PRESENCIAL*/
+#AsesoryP{
+    width: 180px;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+/*p{
+    font-weight: bold;
+    text-align: center;
+    color:#B72A0B;
+    font-size: 18px;
+    
+}*/
+
+#principal{
+    float: left;
+    width: 70%;
+}
+#lateral{
+    margin-left: 70%;
+    text-align: center;
+    min-height:500px;
+    border-left:2px  dashed #ff6a00;
+    background-color: #FCFBEC;
+}
+
+#ingles{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+
+#cuv{
+    margin-left: 30%;
+    text-align: center;
+    margin-top:8px;
+}
+
+#fi1{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+
+#agregar{
+    float:left;
+    width: 30%;
+    text-align: center;
+    margin-left: 200px;
+}
+
+#AsesoryP_add{
+    width: 120px;
+}
+
+
+/*div{
+    margin-top:50px;
+    margin-left: 100px;
+}*/
+
+#lateral > a > img{
+    min-height:450px;
+    width: 350px;
+}
+
+/*SOMI ASESORIA*/
+		/*h1, h2, p{
+			margin-left:25px;
+		}
+		
+		h1{
+			text-shadow: 2px 2px #94AAB6;
+			font-size: 40px;
+		}*/
+		
+		
+		#grupo1, #grupo2, #grupo3, #grupo4, #grupo5{
+			float: left;
+			padding-left:15px;
+			text-align: justify;
+			
+		}
+		
+		.izquierda{
+			float: left;
+			margin:30px;
+		}
+		#uno{
+			width:70%;
+			border: 1px solid black;
+			float:left;
+		}
+		#lateral{
+			text-align:center;
+			min-height:300px;
+			background-color:red;
+			
+			margin-left:70%;
+		}
+		.derecha{
+			margin:40px;
+		}
+		
+		#unirme{
+			text-align:center;
+			margin-left:50%;
+		}
+		
+/*******************************************/
+#tituloConfirmarC{
+	text-align:center;
+	padding-bottom:30px;
+	
+}
+
+#labelCorreo{
+	float:left;
+
+	text-align:center;
+}
+#inputCorreo{
+	text-align:center;
+	margin-left:25%;
+	width:50%;
+	
+}
+.seccionConfirmarC{
+	border:1px solid black;
+	margin-top:10%;
+	padding: 80px 15px 80px 15px;
+}
+
+#Blisto{
+	width:15%;
+	margin-left:43%;
+}
+
+#secConfirmacionListo{
+	padding-top:20px;
+}
+
+/* TERMINA CONFIRMAR CONTRASEÑA */
+#seccionCRC{
+	
+	margin-top:10%;
+	padding: 80px 15px 80px 15px;
+	border:1px solid black;
+}
+#ParrafoCRC{
+	text-align:center;
+	
+}
+#textoCRC{
+	text-align:center;
+	padding-top:2%;
+	
+}
+#SeccionAceptar{
+	padding-top:20px;
+	
+}
+#BotonAceptar{
+	width:15%;
+	margin-left:43%;
+}
+/*TERMINA OLVIDE CONTRASEÑA*/
+#seccionRecuperarCuenta{
+	border:1px solid black;
+	margin-top:10%;
+	padding: 80px 15px 80px 15px;
+}
+#txtConfirCon{
+	text-align:center;
+}
+#textoRecuperarContraseña{
+	text-align:center;
+	padding-top:2%;
+	
+}
+#BotonListo{
+	padding-top:20px;
+}
+
+/*******************************************/		
+		

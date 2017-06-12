@@ -2,13 +2,36 @@
 <html>
 	<head>
 		<title>SmartGroup-Home</title>
+		<link rel="shortcut icon" href="img/icon.png"/>
 		<link rel="stylesheet" href="hojaprincipal.css" type="text/css"/>
+		
+		<script language="javascript"> 
+			var Intervalo=3000; 
+			var Imagenes=new Array; 
+			var IDImagen=0; 
+
+			Imagenes[1]="img/anuncioa.png"; 
+			Imagenes[2]="img/anunciob.png";
+
+			function CambiarImagen() 
+			{ 
+			setTimeout("CambiarImagen()",Intervalo); 
+			IDImagen++; 
+			document.images["MiImagen"].src=Imagenes[IDImagen]; 
+
+			if(IDImagen==Imagenes.length-1) 
+				{ 
+				IDImagen=0; 
+				} 
+			} 
+		</script> 
+
 	</head>
 	<body>
 		<div id="contenedor">
 			<header>
 				<section id="s1">
-					<img src="img/logoSG.png"/>
+					<img id="logo" src="img/logoSG.png"/>
 				</section>
 				
 				<section id="s3">					
@@ -32,24 +55,23 @@
 				
 				<nav id="contexto">
 					<ul>
-						<li><a href="">Inicio</a></li>
-						<li><a href="">Grupos</a></li>
+						<li><a href="/PaginaPrincipal.html" role="tab" >Inicio</a></li>
 						<li><a href="">Cursos</a></li>
-						<li><a href="asesoriaPresencialcursos.html">Asesorias</a></li>
-						<li><a href="">Sitios</a></li>
+						<li><a href="">Asesorias</a></li>
 						<li><a href="">Contactenos</a></li>
 					</ul>
 				</nav>
 			
 			</header>
-			
-			<p>
-				SmartGroup.com es un sitio donde podras organizar grupos de estudio y elegir donde realizarlos segun los lugares que 
-				te ofrecemos, ademas de brindarte asesorias virtuales o presenciales,materiales,videos,etc... de los cursos disponibles.
-			</p>
-				
+						
+			<section id= "Panuncios">
+				<img id="anunn" name="MiImagen" src="https://cancionesdetelevision.com/wp-content/uploads/2015/09/anuncio-san-miguel-00-.jpg" /> 
+				<script language="javascript"> 
+				CambiarImagen(); 
+				</script> 
+			</section>
 			<div id="borde">
-				<section id="izquierda">
+				<section id="Pizquierda">
 					<h2>Sitios disponibles</h2>
 					<nav>
 						<div>
@@ -94,9 +116,43 @@
 					</nav>
 				</aside>
 			</div>
-			<footer>
-				&copy 2017 SmartGroup
-			</footer>
+			<footer id="final">
+			<article id="lapiz">
+			
+			</article>		
+			<section class="sombra" id="m1">
+				<li><img src="img/Student-64.png" />MI CUENTA</li>
+						<ul><a href="">Mis asesorias<a/></ul>
+						<ul><a href="">Mi calendario<a/></ul>
+						<ul><a href="">Configuracion<a/></ul>
+			
+			</section>
+			
+			<section class="sombra"id="m2">
+				
+				<li><img src="img/24_-Analytics-_business_office_desk-48.png" />NOSOTROS</li>
+					<ul><a href="">Imformacion como empresa<a/></ul>
+					<ul><a href="">Promociones<a/></ul>
+					<ul><a href="">Te ayudamos<a/></ul>
+					<ul><a href="">Politicas de la empresa<a/></ul>
+				
+			</section>
+			
+			<section class="sombra" id="m3">
+			
+			
+				<li><img src="img/WeChat-2-48.png" />SIGUENOS</li>
+					<ul><a href="https://www.facebook.com">Facebook<a/></ul>
+					<ul><a href="https://www.twitter.com">Twitter<a/></ul>
+					<ul><a href="https://www.youtube.com">Youtube<a/></ul>
+			</section>
+			<section  class="sombra" id="m4">
+				<img src="img/Help_Circle_Blue.png" />Contactanos a:
+				Cel: 970116134 Emal: smartgroup@gmail.com
+				
+			</section>
+			
+		</footer>
 		</div>
 	</body>
 	
