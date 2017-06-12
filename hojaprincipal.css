@@ -168,32 +168,33 @@ footer{
 
 
 /*HOJA DE REGISTRO*/
-#cuerpo {
+#cuerpo_requi {
 	font-family:Arial;
 	border: 2px solid black;
 	margin:auto;
 	width:900px;
 	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
 }
-#izquierda {
+#cabeza_requi {
+	border:1px solid red;
+	color:blue;
+	text-align:center;
+}
+#izquierda_requi {
 	float: left;
 	text-align:left;
 	width:45%;
 	padding:10px;
 	
 }
-#derecha {
+#derecha_requi {
 	float:none;
 	text-align: left;
 	border: 1px solid black;
 	width:auto;
-	padding:10px;
-	
+	padding:10px;	
 }
-#pie {
-	text-align:center;
-	padding-top:20px;
-}
+
 #imagen_forma {
 	float:left;
 	text-align: justify;
@@ -205,7 +206,6 @@ footer{
 #imagen_forma2 {
 	float:left;
 	text-align: justify;
-	padding-left:20px;
 }
 #letras_forma2 {
 	margin-left:30%;
@@ -214,11 +214,13 @@ footer{
 #imagen_forma3 {
 	float:left;
 	text-align: justify;
-	padding-left:40px;
 }
 #letras_forma3 {
 	margin-left:30%;
 	padding:17px;
+}
+.row {
+	padding:10px;
 }
 
 /*INICIAR SESION*/
@@ -269,7 +271,7 @@ footer{
 
 
 /*ASESORIA PRESENCIAL*/
-img{
+#AsesoryP{
     width: 180px;
 }
 
@@ -323,15 +325,15 @@ h1{
     margin-left: 200px;
 }
 
-#imgagregar{
+#AsesoryP_add{
     width: 120px;
 }
 
 
-div{
+/*div{
     margin-top:50px;
     margin-left: 100px;
-}
+}*/
 
 #lateral > a > img{
     min-height:450px;
