@@ -23,12 +23,6 @@ a{
 	text-decoration:none;
 }
 h3{text-align:center;}
-footer{
-	font-size:20px;
-	padding:5px;
-	clear:both;
-	text-align:center;
-}
 
 #contenedor{
     width:70%;
@@ -182,7 +176,41 @@ footer{
 #borde{
 	border:1px solid red;
 }
-
+#final{
+	margin:auto;
+	font-family: Helvetica Neuel;
+	font-size: 10px;	
+	min-height: 450px;
+	padding:10px;
+	clear:both;
+	background-image:url("img/lapiz.png");
+	background-size:100%, 100%;
+	background-repeat:no-repeat;
+	width:98%;}
+#m1,#m2, #m3{
+	float:left;
+	color: #0000FF;
+	list-style:none;
+	padding: 15px;
+	margin-bottom:-5%;}
+#lapiz{
+	padding-left:10%;
+	float:left;}
+#m1{
+	float:left;
+	padding-left:30%;}
+			
+.sombra{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Arial Black';}
+#m4{
+	clear:both;
+	margin-left: 20%;
+				}
+#m3{padding-right:30px;
+			}
 /*INICIAR SESION*/
 #contenedorIS{
 	width:70%;
