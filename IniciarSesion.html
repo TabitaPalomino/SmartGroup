@@ -2,30 +2,29 @@
 <html>
     <head>
         <title>SmartGroup</title>
+		<link rel="shortcut icon" href="img/icon.png"/>
         <link href="hojaprincipal.css" rel="stylesheet" />
     </head>
     <body>
-        <div ID="inicioSesion">
-            <header id="cabecera">
-                <h1>SmartGroup</h1>
-            </header>
-            
-            <p id="titulo"> INICIAR SESIÓN</p>
+	<div id="contenedorIS">
+		<section id="centroI"><img id="logoIS" src="img/logoSG.png"/></section>	
+        <div ID="inicioSesion">            
+            <p id="titulo">Inicie sesión para disfrutar de todas las promociones y navegar sin restricciones.</p>
 			
 			<section id="seccionCorreo">			
-            <p id="nombrec">Correo electrónico:</p>
-            <input id="correo" type="text" size="25"/>
+            <input class="correo" type="text" placeholder="Correo Electrónico" size="50"/>
 			</section>
 			
 			<section id="seccionContra">
-			<p id="nombrecontra">Contraseña:</p>
-            <input id="contra" type="password" size="25"/> 
+            <input class="correo" type="password" placeholder="Contraseña"/> 
 			</section>
-            <section id="conectar"><a id="olvide" href="ConfirmarContraseña.html">¿Has olvidado tu contraseña?</a></section>
-                        
-            <button>Iniciar Sesión</button>
-            
+            <button id="Binicios"><a href="PaginaPrincipal.html">Iniciar Sesión<a></button>
+            <section id="conectar"><a id="olvide" href="ConfirmarContraseña.html">Olvide mi contraseña</a></section>
+			<section id="re">¿Aún no tienes cuenta?
+			<button id="Bregistro"><a href="Registro.html">Registrate<a></button>
+			</section>
         </div>
+	</div>	
 		<footer> &copy 2017 SmartGroup</footer>
     </body>
 </html>

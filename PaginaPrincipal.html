@@ -2,7 +2,30 @@
 <html>
 	<head>
 		<title>SmartGroup-Home</title>
+		<link rel="shortcut icon" href="img/icon.png"/>
 		<link rel="stylesheet" href="hojaprincipal.css" type="text/css"/>
+		
+		<script language="javascript"> 
+			var Intervalo=3000; 
+			var Imagenes=new Array; 
+			var IDImagen=0; 
+
+			Imagenes[1]="img/anuncioa.png"; 
+			Imagenes[2]="img/anunciob.png";
+
+			function CambiarImagen() 
+			{ 
+			setTimeout("CambiarImagen()",Intervalo); 
+			IDImagen++; 
+			document.images["MiImagen"].src=Imagenes[IDImagen]; 
+
+			if(IDImagen==Imagenes.length-1) 
+				{ 
+				IDImagen=0; 
+				} 
+			} 
+		</script> 
+
 	</head>
 	<body>
 		<div id="contenedor">
@@ -32,24 +55,23 @@
 				
 				<nav id="contexto">
 					<ul>
-						<li><a href="">Inicio</a></li>
-						<li><a href="">Grupos</a></li>
+						<li><a href="/PaginaPrincipal.html" role="tab" >Inicio</a></li>
 						<li><a href="">Cursos</a></li>
-						<li><a href="asesoriaPresencialcursos.html">Asesorias</a></li>
-						<li><a href="">Sitios</a></li>
+						<li><a href="">Asesorias</a></li>
 						<li><a href="">Contactenos</a></li>
 					</ul>
 				</nav>
 			
 			</header>
-			
-			<p>
-				SmartGroup.com es un sitio donde podras organizar grupos de estudio y elegir donde realizarlos segun los lugares que 
-				te ofrecemos, ademas de brindarte asesorias virtuales o presenciales,materiales,videos,etc... de los cursos disponibles.
-			</p>
-				
+						
+			<section id= "Panuncios">
+				<img id="anunn" name="MiImagen" src="https://cancionesdetelevision.com/wp-content/uploads/2015/09/anuncio-san-miguel-00-.jpg" /> 
+				<script language="javascript"> 
+				CambiarImagen(); 
+				</script> 
+			</section>
 			<div id="borde">
-				<section id="izquierda">
+				<section id="Pizquierda">
 					<h2>Sitios disponibles</h2>
 					<nav>
 						<div>
