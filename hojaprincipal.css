@@ -326,16 +326,17 @@ h3{text-align:center;}
 /*HOJA DE REGISTRO*/
 #cuerpo_requi {
 	font-family:Arial;
-	border: 2px solid black;
 	margin:auto;
 	width:900px;
-	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuF0MDhUBdDT5kIHD5cldJ3QD_5yU73PgGpx7iDSklb1u5sRf);
+	background:#F4F5F5;
+	box-shadow:0px 0px 25px #090909;
 }
 #cabeza_requi {
-	border:1px solid red;
 	color:blue;
 	text-align:center;
 }
+
+
 #izquierda_requi {
 	float: left;
 	text-align:left;
@@ -346,38 +347,71 @@ h3{text-align:center;}
 #derecha_requi {
 	float:none;
 	text-align: left;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	width:auto;
 	padding:10px;	
+}
+#mini_cuerpo {
+	height: 350px;
+	border:1px solid gray;
+	padding:10px;
+	border-radius:6px;
+	box-shadow:0px 0px 10px #090909;
 }
 
 #imagen_forma {
 	float:left;
-	text-align: justify;
+	border-radius:6px;
 }
 #letras_forma {
 	margin-left:30%;
 	padding:17px;
+	border:1px solid gray;
+	border-radius:6px;
+	
 }
 #imagen_forma2 {
 	float:left;
-	text-align: justify;
+	border-radius:6px;
 }
 #letras_forma2 {
 	margin-left:30%;
 	padding:17px;
+	border:1px solid gray;
+	border-radius:6px;
 }
 #imagen_forma3 {
 	float:left;
-	text-align: justify;
+	border-radius:6px;
 }
 #letras_forma3 {
 	margin-left:30%;
 	padding:17px;
+	border:1px solid gray;
+	border-radius:6px;
 }
 .row {
-	padding:10px;
+	padding: 12px;
+	
 }
+#Textnom, #TextApe, #TextE-mail, #pass1, #pass2, #TextAlterE-mail{
+	width: 30%;
+    height: 35px;
+    background: white;
+    padding: 0 30px 0 15px;
+    line-height: normal;
+    font-family: Arial, regular;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    color: #111;
+}
+#btnRegis {
+	border: 1px solid gray;
+	border-radius:6px;
+	box-shadow:0px 0px 10px #090909;
+}
+
 
 /*ASESORIA PRESENCIAL*/
 #AsesoryP{
@@ -387,6 +421,7 @@ h3{text-align:center;}
 h1{
     font-size: 40px;
     padding-left: 25px;
+	color:white;
 }
 
 /*p{
