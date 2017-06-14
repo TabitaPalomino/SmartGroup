@@ -148,10 +148,14 @@ h3{text-align:center;}
 }
 #izquierda > *{
 }
-
+#Pizquierda{
+	float:left;
+	width:70%;
+	/*border: 1px solid green;*/
+}
 #grupos{
 	float:left;
-	width:30%;
+	width:40%;
 }
 #cursos{
 	float:right;
@@ -163,18 +167,25 @@ h3{text-align:center;}
 }
 #derecha{
 	float:right;
-	width:24%
+	min-height: px;
+	text-align: center;
+	
 }
+
 #derecha img{
-	width:200px;
-	height:100px;
+	width:300px;
+	height:300px;
+	margin-left:70%;
+	float: right;
+	/*border: 1px solid red;*/
 }
 #pie1{
 	float:left;
 }
 
 #borde{
-	border:1px solid red;
+	/*border:1px solid red;*/
+	
 }
 #final{
 	margin:auto;
