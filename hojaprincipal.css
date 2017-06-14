@@ -327,7 +327,7 @@ h3{text-align:center;}
 #cuerpo_requi {
 	font-family:Arial;
 	margin:auto;
-	width:900px;
+	width:1000px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
 }
@@ -366,7 +366,7 @@ h3{text-align:center;}
 #letras_forma {
 	margin-left:30%;
 	padding:17px;
-	border:1px solid gray;
+	border:1px solid white;
 	border-radius:6px;
 	
 }
@@ -377,7 +377,7 @@ h3{text-align:center;}
 #letras_forma2 {
 	margin-left:30%;
 	padding:17px;
-	border:1px solid gray;
+	border:1px solid white;
 	border-radius:6px;
 }
 #imagen_forma3 {
@@ -387,7 +387,7 @@ h3{text-align:center;}
 #letras_forma3 {
 	margin-left:30%;
 	padding:17px;
-	border:1px solid gray;
+	border:1px solid white;
 	border-radius:6px;
 }
 .row {
@@ -585,10 +585,14 @@ h1{
 	margin-left:43%;
 }
 /*TERMINA OLVIDE CONTRASEÑA*/
+
+/* ---------------------------------------- */
+/* --------------Confirmar Recuperacion de Contraseña---------- */
 #seccionRecuperarCuenta{
 	border:1px solid black;
-	margin-top:10%;
-	padding: 80px 15px 80px 15px;
+	margin: 0;
+	padding: 15px 15px 15px 15px;
+	text-align:center;
 }
 #txtConfirCon{
 	text-align:center;

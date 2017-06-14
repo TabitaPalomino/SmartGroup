@@ -1,23 +1,57 @@
 <!doctype html>
 <html>
-<head>
-<title>Recuperar Contraseña</title>
-<link href="hojaPrincipal.css" rel="stylesheet" />
-
-</head>
-<body>
-<section id="seccionRecuperarCuenta">
-<h1 id="txtConfirCon">Confimacion de recuperacion de contraseña</h1>
-<p id="textoRecuperarContraseña">Completa el siguiente formulario</p>
-<br />
-<label id="labelNuevaContraseña">Nueva contraseña</label>
-<input id="inp" type="text"></input>
-<br />
-<label id="lab">Confirmar contraseña</label>
- <input id="inp2" type="text"></input>
-<section id="BotonListo">
- <button id="BtListo">Listo</button>
-</section>
-</section>
-</body>
+	<head>
+		<title>Recuperar Contraseña</title>
+		<link href="hojaPrincipal.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header id="contenedor">
+			<section id="s1">
+				<img id="logo" src="img/logoSG.png"/>
+			</section>	
+			<section id="s3">					
+				<ul id="inicio">
+				<li><a href="IniciarSesion.html">Iniciar Sesion<img id="iconoI" src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
+				<li><a href="Registro.html">Registrarse <img id="iconoR" src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
+				</ul>
+				<br/><br/>
+				<a class="redes" href="" target="_black"><img id="facebook" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
+				<a class="redes" href="" target="_black"><img id="twitter" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
+				<a class="redes" href="" target="_black"><img id="youtube" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
+			</section>
+			<section id="s2">
+				<form id="busqueda">
+					<input id="br1" type="text" placeholder=" Escribe el curso que desee buscar" />
+					<input id="bo2" type="button" value="buscar"/>
+				</form>
+			</section>
+			<nav id="contexto">
+				<ul>
+					<li><a href="/PaginaPrincipal.html" role="tab" >Inicio</a></li>
+					<li><a href="">Cursos</a></li>
+					<li><a href="">Asesorias</a></li>
+					<li><a href="">Contactenos</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="cabeza_requi">
+			<h1>Recuperación de Contraseña </h1>
+		</div>
+		<article id="cuerpo_requi">
+			<section id="seccionRecuperarCuenta">
+				<p id="textoRecuperarContraseña">Completa el siguiente formulario</p>
+				<br />
+				<div class="row ui-row">
+					<input id="TextE-mail" name="e-mail" value-required="true" type="text" data-message="Ingrese el correo electrónico" placeholder="Correo Electrónico"> 
+				</div>
+				<div class="row ui-row">
+					<input id="pass1" name="clave" data-require="true" type="password" data-message="Ingresa tu contraseña, la contraseña debe tener mínimo 15 caracteres." placeholder="Nueva Contraseña"> 
+				</div>
+				<section id="BotonListo">
+					<button id="BtListo">Listo</button>
+				</section>
+			</section>
+		</article>
+		
+	</body>
 </html>
