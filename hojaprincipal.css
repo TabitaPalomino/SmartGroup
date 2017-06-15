@@ -9,9 +9,7 @@ body {
 	background-size:100% 100%;
 	
 }
-footer{
-	text-align: center;
-}
+
 header{
 	/*background-color: #D4E9FF;*/
 	border-bottom:2px solid #FFFFFF;
@@ -152,9 +150,8 @@ h3{text-align:center;}
 }
 #Pizquierda{
 	float:left;
-	width:60%;
+	width:70%;
 	/*border: 1px solid green;*/
-	margin-left: 50px;
 }
 #grupos{
 	float:left;
@@ -170,14 +167,14 @@ h3{text-align:center;}
 }
 #derecha{
 	float:right;
-	min-height: 1000px;
+	min-height: px;
 	text-align: center;
-	width:30%;
+	
 }
 
 #derecha img{
-	width:280px;
-	height:280px;
+	width:300px;
+	height:300px;
 	margin-left:70%;
 	float: right;
 	/*border: 1px solid red;*/
