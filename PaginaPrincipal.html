@@ -1,10 +1,8 @@
-<!doctype html>
+<!Doctype html>
 <html>
 	<head>
-		<title>SmartGroup-Home</title>
-		<link rel="shortcut icon" href="img/icon.png"/>
+		<title></title>
 		<link rel="stylesheet" href="hojaprincipal.css" type="text/css"/>
-		
 		<script language="javascript"> 
 			var Intervalo=3000; 
 			var Imagenes=new Array; 
@@ -25,93 +23,102 @@
 				} 
 			} 
 		</script> 
-
 	</head>
 	<body>
-		<div id="contenedor">
-			<header>
-				<section id="s1">
+		<div id="pcl_contenedor">
+			<header id="pcl_cabecera">
+				<div id="logo">
 					<img id="logo" src="img/logoSG.png"/>
-				</section>
-				
-				<section id="s3">					
-					<ul id="inicio">
-						<li><a href="IniciarSesion.html">Iniciar Sesion<img id="iconoI" src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
-						<li><a href="Registro.html">Registrarse <img id="iconoR" src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
-					</ul>
+				</div>
+				<div id="registro">
+					<a class="reg" href="IniciarSesion.html">Registrarse<img src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
+					<a class="reg" href="Registro.html">Iniciar Sesion<img src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
 					<br/><br/>
-					<a class="redes" href="" target="_black"><img id="facebook" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>
-				
-					<a class="redes" href="" target="_black"><img id="twitter" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
-			
-					<a class="redes" href="" target="_black"><img id="youtube" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
-				</section>
-				<section id="s2">
-					<form id="busqueda">
-						<input id="br1" type="text" placeholder=" Escribe el curso que desee buscar" />
-						<input id="bo2" type="button" value="buscar"/>
-					</form>
-				</section>
-				
-				<nav id="contexto">
-					<ul>
-						<li><a href="/PaginaPrincipal.html" role="tab" >Inicio</a></li>
-						<li><a href="">Cursos</a></li>
-						<li><a href="">Asesorias</a></li>
-						<li><a href="">Contactenos</a></li>
-					</ul>
-				</nav>
-			
-			</header>
-						
-			<section id= "Panuncios">
-				<img id="anunn" name="MiImagen" src="https://cancionesdetelevision.com/wp-content/uploads/2015/09/anuncio-san-miguel-00-.jpg" /> 
-				<script language="javascript"> 
-				CambiarImagen(); 
-				</script> 
-			</section>
-			<div id="borde">
-				<section id="Pizquierda">
-					<h2>Sitios disponibles</h2>
-					<nav>
-						<div>
-							Aqui van los lugares disponibles...
+						<div id="redes">
+						<a class="redes" href="" target="_black"><img id="fb" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
+						<a class="redes" href="" target="_black"><img id="tt" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
+						<a class="redes" href="" target="_black"><img id="yt" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
 						</div>
-					</nav>
-					<section id="grupos">
-						<h3>Grupos</h3>
-						<p>Los grupos mas concurridos y activos de la semana</p>
+				</div>	
+				<div id="busqueda">
+					<form id="buscar">
+						<input id="pchdtext" type="text" placeholder=" Escribe el curso que desee buscar" />
+						<input id="btnbuscar" type="button" value="buscar"/>
+					</form>
+				</div>
+			</header>
+			<nav id="pcl_navegacion">
+				<ul>
+					<li><a href="">Inicio</a></li>
+					<li><a href="">Cursos</a></li>
+					<li><a href="">Asesorias</a></li>
+					<li><a href="">Contactenos</a></li>
+				</ul>
+			</nav>
+			
+				<section id="pcl_anuncios">
+					<img id="anunn" name="MiImagen" src="https://cancionesdetelevision.com/wp-content/uploads/2015/09/anuncio-san-miguel-00-.jpg" /> 
+					<script language="javascript"> 
+						CambiarImagen(); 
+					</script> 
+				</section>
+				
+			<section id="pcl_cuerpo">
+				<nav id="slinks">
+						<span>Sitios disponibles:</span>
 						<ul>
-							<li><a href="">Calculo I</a></li>
-							<li><a href="">Calculo II</a></li>
-							<li><a href="">Quimica</a></li>
-							<li><a href="">English III</a></li>
-							<li><a href="">Fisica II</a></li>
+							<li><a href="">lugar1</a></li>
+							<li><a href="">lugar2</a></li>
+							<li><a href="">lugar3</a></li>
+							<li><a href="">lugar4</a></li>
+							<li><a href="">lugar5</a></li>
+							<li><a href="">lugar6</a></li>
 						</ul>
-					</section>
-					
-					<section id="cursos">
-						<h3>Cursos</h3>
-						<p>Cursos disponibles</p>
-							<li><a href="">Calculo</a></li>
-							<li><a href="">Lenguaje</a></li>
-							<li><a href="">Fisica</a></li>
-							<li><a href="">Quimica</a></li>
-							<li><a href="">English</a></li>
-					</section>
-					
-					<section id="asesorias">
+					</nav>
+				<section id="pcl_sitios">
+					<div>
+					<div id="foto">Foto</div>
+					<article id="descripcion">Descripcion</article>
+					</div>
+				</section>
+				<section id="pcl_principal">
+					<div id="pcl_grupos">
+						<h3>Grupos</h3>
+							<p>Los grupos mas concurridos y activos de la semana</p>
+							<ul>
+								<li><a href="">Curso1</a></li>
+								<li><a href="">Curso2</a></li>
+								<li><a href="">Curso3</a></li>
+								<li><a href="">Curso4</a></li>
+								<li><a href="">Curso5</a></li>
+							</ul>
+					</div>
+					<div id="pcl_asesorias">
 						<h3>Aseorias</h3>
-						<p>Asesorias disponibles</p>
-						<li><a href="">Calculo I </a></li>
-							<li><a href="">Asesoria1</a></li>
-							<li><a href="">Asesoria2</a></li>
-							<li><a href="">Asesoria3</a></li>
-							<li><a href="">Asesoria4</a></li>
-							<li><a href="">Asesoria5</a></li>
-					</section>
-				</section>	
-				<aside id="derecha">
+							<p>Asesorias disponibles</p>
+								<ul>
+									<li><a href="">Asesoria1</a></li>
+									<li><a href="">Asesoria2</a></li>
+									<li><a href="">Asesoria3</a></li>
+									<li><a href="">Asesoria4</a></li>
+									<li><a href="">Asesoria5</a></li>
+								</ul>
+					</div>
+					<div id="pcl_cursos">
+						<h3>Cursos</h3>
+							<p>Cursos disponibles</p>
+								<ul>
+									<li><a href="">Curso1</a></li>
+									<li><a href="">Curso2</a></li>
+									<li><a href="">Curso3</a></li>
+									<li><a href="">Curso4</a></li>
+									<li><a href="">Curso5</a></li>
+								</ul>
+					</div>
+					
+				</section>
+			</section>
+			<aside id="pcl_lateral">
 				<p><strong>Tambien te puede interesar...</strong></p>
 					<nav>
 						<a href=""><img src="img/Publicidad gif mayo.gif"/></a><br/>
@@ -119,46 +126,38 @@
 						<a href=""><img src="img/STIBO-SYSTEMS.gif"/></a></br>
 						<a href=""><img src="img/cl.jpg"/></a>
 					</nav>
-				</aside>
-			</div>
-			<footer id="final">
-			<article id="lapiz">
-			
-			</article>		
-			<section class="sombra" id="m1">
-				<li><img src="img/Student-64.png" />MI CUENTA</li>
-						<ul><a href="">Mis asesorias<a/></ul>
-						<ul><a href="">Mi calendario<a/></ul>
-						<ul><a href="">Configuracion<a/></ul>
-			
-			</section>
-			
-			<section class="sombra"id="m2">
-				
-				<li><img src="img/24_-Analytics-_business_office_desk-48.png" />NOSOTROS</li>
-					<ul><a href="">Imformacion como empresa<a/></ul>
-					<ul><a href="">Promociones<a/></ul>
-					<ul><a href="">Te ayudamos<a/></ul>
-					<ul><a href="">Politicas de la empresa<a/></ul>
-				
-			</section>
-			
-			<section class="sombra" id="m3">
-			
-			
-				<li><img src="img/WeChat-2-48.png" />SIGUENOS</li>
-					<ul><a href="https://www.facebook.com">Facebook<a/></ul>
-					<ul><a href="https://www.twitter.com">Twitter<a/></ul>
-					<ul><a href="https://www.youtube.com">Youtube<a/></ul>
-			</section>
-			<section  class="sombra" id="m4">
-				<img src="img/Help_Circle_Blue.png" />Contactanos a:
-				Cel: 970116134 Emal: smartgroup@gmail.com
-				
-			</section>
-			
-		</footer>
+			</aside>
+			<footer id="f1">
+					<section class="fs" id="fsleft">
+						<h3><img src="img/Student-64.png" />Micuenta</h3>
+						<ul>
+							<li><a href="">Mis asesorias</a></li>
+							<li><a href="">Mis calendarios</a></li>
+							<li><a href="">Configuracion</a></li>
+						</ul>
+					</section>
+					<section class="fs" id="fsright">
+						<h3><img src="img/24_-Analytics-_business_office_desk-48.png" />Nosotros</h3>
+						<ul>
+							<li><a href="">Informacion como empresa</a></li>
+							<li><a href="">Promociones</a></li>
+							<li><a href="">Te ayudamos</a></li>
+							<li><a href="">Politicas de la empresa</a></li>
+						</ul>
+					</section>
+					<section class="fs" id="fscenter">
+						<h3><img src="img/WeChat-2-48.png" />Siguenos</h3>
+						<ul>
+							<li><a href="">Facebook</a></li>
+							<li><a href="">Twitter</a></li>
+							<li><a href="">Youtube</a></li>
+						</ul>
+					</section>
+					
+			</footer>
+			<footer id="f2">
+				<span><img src="img/Help_Circle_Blue.png" />Contactanos a:Cel: 970116134 Emal: smartgroup@gmail.com</span>
+			</footer>
 		</div>
 	</body>
-	
 </html>
