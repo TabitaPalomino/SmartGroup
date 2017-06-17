@@ -369,7 +369,7 @@ body{
 #cuerpo_requi {
 	font-family:Arial;
 	margin:auto;
-	width:1000px;
+	width:1200px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
 }
@@ -377,7 +377,6 @@ body{
 	color:blue;
 	text-align:center;
 }
-
 
 #izquierda_requi {
 	float: left;
@@ -570,6 +569,12 @@ h1{
 		}
 		
 /*******************************************/
+/* -----Olvide mi contraseña------ */
+#body_olvide{
+	width:1200px;
+	margin:auto;
+}
+
 #tituloConfirmarC{
 	text-align:center;
 	padding-bottom:30px;

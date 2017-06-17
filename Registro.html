@@ -5,37 +5,38 @@
 		<link href="hojaprincipal.css" rel="stylesheet"/>
 	</head>
 	<body>
-		<header id="contenedor">
-			<section id="s1">
+		<div id="pcl_contenedor">
+			<header id="pcl_cabecera">
+				<div id="logo">
 				<img id="logo" src="img/logoSG.png"/>
-			</section>	
-			<section id="s3">					
-				<ul id="inicio">
-				<li><a href="IniciarSesion.html">Iniciar Sesion<img id="iconoI" src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
-				<li><a href="Registro.html">Registrarse <img id="iconoR" src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
-				</ul>
-				<br/><br/>
-				<a class="redes" href="" target="_black"><img id="facebook" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
-				<a class="redes" href="" target="_black"><img id="twitter" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
-				<a class="redes" href="" target="_black"><img id="youtube" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
-			</section>
-			<section id="s2">
-				<form id="busqueda">
-					<input id="br1" type="text" placeholder=" Escribe el curso que desee buscar" />
-					<input id="bo2" type="button" value="buscar"/>
-				</form>
-			</section>
-			<nav id="contexto">
+				</div>
+				<div id="registro">
+					<a class="reg" href="IniciarSesion.html">Registrarse<img src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
+					<a class="reg" href="Registro.html">Iniciar Sesion<img src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
+					<br/><br/>
+						<div id="redes">
+						<a class="redes" href="" target="_black"><img id="fb" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
+						<a class="redes" href="" target="_black"><img id="tt" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
+						<a class="redes" href="" target="_black"><img id="yt" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
+						</div>
+				</div>	
+				<div id="busqueda">
+					<form id="buscar">
+						<input id="pchdtext" type="text" placeholder=" Escribe el curso que desee buscar" />
+						<input id="btnbuscar" type="button" value="buscar"/>
+					</form>
+				</div>
+			</header>
+			<nav id="pcl_navegacion">
 				<ul>
-					<li><a href="/PaginaPrincipal.html" role="tab" >Inicio</a></li>
+					<li><a href="">Inicio</a></li>
 					<li><a href="">Cursos</a></li>
 					<li><a href="">Asesorias</a></li>
 					<li><a href="">Contactenos</a></li>
 				</ul>
 			</nav>
-		</header>
 		<div id="cabeza_requi">
-			<h1>OBTEN UNA NUEVA CUENTA</h1>
+			<h1> OBTEN UNA NUEVA CUENTA</h1>
 		</div>
 		<article id ="cuerpo_requi">
 			<section id="izquierda_requi">
@@ -102,5 +103,6 @@
 			
 		</article>
 		<footer>&copy 2017 SmartGroup</footer>
+		</div>
 	</body>
 </html>
