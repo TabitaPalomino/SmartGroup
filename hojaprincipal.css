@@ -366,6 +366,26 @@ body{
     border-radius: 3px;
     color: #111;
 }
+/*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
+
+#nos_text{
+	border: 1px solid red;
+	float:left;
+	
+	}
+#nos_elige{
+	border: 1px solid green;
+	width: 40%;
+	color:white;
+	margin-left: 30px;
+}
+#nos_imagen{
+	margin:25%;
+	}
+
+
+
+
 /*HOJA DE REGISTRO*/
 #cuerpo_requi {
 	font-family:Arial;
