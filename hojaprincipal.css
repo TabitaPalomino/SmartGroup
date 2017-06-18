@@ -219,22 +219,22 @@ body{
 	
 	#fsleft{
 		margin-top:0px;
-		margin-left:116px;
+		margin-left:30%;
 		float:left;
-		width:30%;
+		width:17%;
+		
 	}
 	#fsright{
 		float:left;
-		width:30%;
-	}
+		}
 	#fscenter{
 		float:left;
-		width:28%;
+		width:20%;
 	}
 	.fs li{
 		color: #0000FF;
 		list-style:none;
-		padding: 10px;
+		padding: 5px;
 		text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 		font-size: 14px;
 		font-weight: bold;
