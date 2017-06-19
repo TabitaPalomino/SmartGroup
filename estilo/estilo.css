@@ -182,7 +182,7 @@ body{
 	#f1{
 		clear:both;
 		min-height:220px;
-		background-image:url("img/lapiz.png");
+		background-image:url(img/lapiz.png);
 		background-size:100% 100%;
 		margin:0px;
 	}
@@ -229,8 +229,13 @@ body{
 		margin-bottom:0px;
 	}
 	
+	.footerg{
+		text-align:center;
+		color:#FFFFFF;
+	}
 /*pie de pagina*/
 /*pagina principal*/
+
 /*INICIAR SESION*/
 #contenedorIS{
 	width:70%;
@@ -284,12 +289,12 @@ body{
 }
 
 #seccionCorreo{
-	padding-top:10px;
-	padding-bottom:30px;
+	margin-top:10px;
+	margin-bottom:0px;
 }
 
 #seccionContraseña{
-	padding-top:20px;
+	margin-top:20px;
 	padding-bottom:50px;
 }
 
@@ -344,23 +349,6 @@ body{
     color: #111;
 }
 
-/*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
-
-#nos_text{
-	border: 1px solid red;
-	float:left;
-	
-	}
-#nos_elige{
-	border: 1px solid green;
-	width: 40%;
-	color:white;
-	margin-left: 30px;
-}
-#nos_imagen{
-	margin:25%;
-}
-	
 /*HOJA DE REGISTRO*/
 #cuerpo_requi {
 	font-family:Arial;
@@ -368,26 +356,29 @@ body{
 	width:1000px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
+	border:1px solid red;
 }
 #cabeza_requi {
 	color:blue;
 	text-align:center;
+	border:1px solid blue;
 }
 
 
 #izquierda_requi {
 	float: left;
 	text-align:left;
-	width:45%;
+	width:40%;
 	padding:10px;
+	border:1px solid yellow;
 	
 }
 #derecha_requi {
-	float:none;
-	text-align: left;
 	/* border: 1px solid black; */
 	width:auto;
 	padding:10px;	
+	border:1px solid pink;
+	margin-left:45%;
 }
 #mini_cuerpo {
 	height: 350px;
@@ -395,13 +386,20 @@ body{
 	padding:10px;
 	border-radius:6px;
 	box-shadow:0px 0px 10px #090909;
+	
 }
 
-#imagen_forma {
+.imagen_forma {
 	float:left;
 	border-radius:6px;
+	border:1px solid green;
+	width:70px;
 }
-#letras_forma {
+.beneficio{
+	
+}
+
+/*#letras_forma {
 	margin-left:30%;
 	padding:17px;
 	border:1px solid white;
@@ -427,7 +425,7 @@ body{
 	padding:17px;
 	border:1px solid white;
 	border-radius:6px;
-}
+}*/
 .row {
 	padding: 12px;
 	
@@ -449,6 +447,25 @@ body{
 	border-radius:6px;
 	box-shadow:0px 0px 10px #090909;
 }
+
+/*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
+
+#nos_text{
+	border: 1px solid red;
+	float:left;
+	
+	}
+#nos_elige{
+	border: 1px solid green;
+	width: 40%;
+	color:white;
+	margin-left: 30px;
+}
+#nos_imagen{
+	margin:25%;
+}
+	
+
 
 
 /*ASESORIA PRESENCIAL*/

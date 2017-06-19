@@ -1,73 +1,46 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Registro</title>
-		<link href="estilo/estilo.css" rel="stylesheet"/>
+		<title>Smart Group</title>
+		<link rel="shortcut icon" href="img/icon.png"/>
+        <link href="estilo/estilo.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="pcl_contenedor">
-			<header id="pcl_cabecera">
-				<div id="logo">
-				<img id="logo" src="img/logoSG.png"/>
-				</div>
-				<div id="registro">
-					<a class="reg" href="IniciarSesion.html">Registrarse<img src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
-					<a class="reg" href="Registro.html">Iniciar Sesion<img src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
-					<br/><br/>
-						<div id="redes">
-						<a class="redes" href="" target="_black"><img id="fb" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
-						<a class="redes" href="" target="_black"><img id="tt" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
-						<a class="redes" href="" target="_black"><img id="yt" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
-						</div>
-				</div>	
-				<div id="busqueda">
-					<form id="buscar">
-						<input id="pchdtext" type="text" placeholder=" Escribe el curso que desee buscar" />
-						<input id="btnbuscar" type="button" value="buscar"/>
-					</form>
-				</div>
-			</header>
-			<nav id="pcl_navegacion">
-				<ul>
-					<li><a href="">Inicio</a></li>
-					<li><a href="">Cursos</a></li>
-					<li><a href="">Asesorias</a></li>
-					<li><a href="">Contactenos</a></li>
-				</ul>
-			</nav>
+		<section id="centroI"><img id="logoIS" src="img/logoSG.png"/></section>
 		<div id="cabeza_requi">
 			<h1 style="color:#045FB4"> OBTEN UNA NUEVA CUENTA</h1>
 		</div>
 		<article id ="cuerpo_requi">
 			<section id="izquierda_requi">
-				<h2>Completa el siguiente formulario y se parte de nuestra comunidad.</h2>
+				<h2>Completa el siguiente formulario y se parte de nuestra comunidad:</h2>
 					<div id="mini_cuerpo">
-						<div id="parte1">
-							<section id="imagen_forma">
-								<img width="100px" height="100px" src="data:image/jpeg;base64,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"/>
-							</section>
+						<div class="beneficio">
+							<section>
+								<img class="imagen_forma" src="img/Asesoriap.png"/>
+								</section>
 							<section id="letras_forma">
-								<p>Asesorias Presenciales.</p>
+								<p>Asesorias Presenciales</p>
 							</section>
 						</div>
-						</br>
-						</br>
-						<div id="parte2">
-							<section id="imagen_forma2">
-								<img width="100px" height="100px" src="data:image/png;base64,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"/>
+						<br/>
+						<br/>
+						<div class="beneficio">
+							<section>
+								<img class="imagen_forma" src="img/Asesoriav.png"/>
 							</section>
 							<section id="letras_forma2">
-								<p>Asesorias Virtuales.</p>
+								<p>Asesorias Virtuales</p>
 							</section>
 						</div>
-						</br>
-						</br>
-						<div id="parte3">
-							<section id="imagen_forma3">
-								<img width="100px" height="100px" src="data:image/jpeg;base64,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"/>
-							</section>
+						<br/>
+						<br/>
+						<div class="beneficio">
+							<section>
+								<img class="imagen_forma" src="img/TalleresR.png"/>
+								</section>
 							<section id="letras_forma3">
-								<p>Talleres Resueltos.</p>
+								<p>Talleres Resueltos</p>
 							</section>
 						</div>
 					</div>
@@ -102,7 +75,9 @@
 			</section>
 			
 		</article>
-		<footer>&copy 2017 SmartGroup</footer>
 		</div>
+		<footer class="footerg">
+				&copy SmartGroup 2017
+		</footer>
 	</body>
 </html>
