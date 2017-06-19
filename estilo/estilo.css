@@ -182,9 +182,8 @@ body{
 	#f1{
 		clear:both;
 		min-height:220px;
-		background-color:#B3D5FA;
+		background-image:url("img/lapiz.png");
 		background-size:100% 100%;
-		background-repeat:no-repeat;
 		margin:0px;
 	}
 	
