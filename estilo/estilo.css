@@ -10,14 +10,14 @@ body{
 	margin-top:0px;
 }
 #pcl_contenedor{
-	width:90%;
+	width:74%;
 	margin:auto;
 	background-color:#F4F5F5;
 	box-shadow: 0px 0px 30px #090909;
 }
 /*cabecera*/
 	#pcl_cabecera{
-		min-height:120px;
+		min-height:150px;
 		background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
 		background-size:100%;
 	}
@@ -26,17 +26,18 @@ body{
 	/*logo*/
 		#logo{
 			float:left;
-			width:30%;
+			width:35%;
 		}
 		#logo img{
-			width:350px;				
+			width:340px;	
+			margin:20px auto;
 		}
 	/*logo*/
 	/*regisro*/
 		#registro{
 			float:right;
-			width:24%;
-			margin-right:65px;
+			width:29%;
+			margin-top:25px;
 		}
 		#registro .reg{
 			font-size:17px;
@@ -57,7 +58,8 @@ body{
 			margin-top:0px;
 		}
 		.redes img{
-			width: 45px;	
+			width: 35px;
+			border-radius:4px;			
 		}
 		
 		
@@ -66,19 +68,19 @@ body{
 		#busqueda{
 			padding-top:58px;
 			margin-left:35%;
-			margin-right:31%;
+			margin-right:29%;
 			background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
 			background-repeat: no-repeat;	
 			background-size: 200px;
-			background-position: 45px;
-			text-align: center;
+			background-position: 48px;
+			text-align: right;
 			height:80px;
 		}
 		#buscar{
 			padding-top:25px;
 		}
 		#pchdtext{
-			width:75%;
+			width:67%;
 		}
 	/*busqueda*/
 /*cabecera*/
@@ -91,27 +93,35 @@ body{
 		background-color: #047ECE;
 		padding: 5px 0px;
 		border-radius:5px;
+		margin:0px 4px;
 	}
 	#pcl_navegacion ul{
 		text-align:center;
+		padding:2px;
+		margin:0px;
 	}
 	#pcl_navegacion ul li{
 		display:inline-block;
-		margin:0px 95px;
+		margin:0px 70px;
 	}
 	#pcl_navegacion ul li a{
 		font-size:20px;
 		color:#fff;
+		margin:0px 0px 2px 1px;
 	}	
+	#pcl_navegacion ul li img{
+		margin:2px 2px 0px 0px;
+		width:18px;
+	}
 /*navegacion*/
-/*cuerpo*/
+/*cuerpo eventosSG*/
 	#pcl_anuncios{
 		text-align:center;
 	}
 	#pcl_anuncios img{
-		border: 1px solid blue;
-		border-radius:3px;
-		width:95%;
+		border-radius:4px;
+		width:972px;
+		margin:10px auto;
 	}
 	#pcl_cuerpo{
 		float:left;
@@ -119,47 +129,6 @@ body{
 		min-height:300px;
 	}
 	
-	#pcl_sitios{
-		margin-left:28px;
-		height:270px;
-		border-radius:5px;
-		background-color:#A7FF8C;
-	}
-	
-	#slinks{
-		margin-left:28px;
-		background-color: #4169E1;
-		border-radius:5px;
-	}
-	#slinks{
-		font-size:23px;
-		
-	}
-	#slinks ul{
-		display:inline-block;
-	}
-	#slinks ul li{
-		display:inline-block;
-		margin:5px 10px;
-	}
-	#slinks ul li a{
-		font-size:20px;
-		color:#fff;
-	}	
-	#foto{
-		float:left;
-		width:24%;
-		min-height:250px;
-		border:1px solid black;
-		border-radius:5px;
-	}
-	#descripcion{
-		float:right;
-		width:72%;
-		min-height:250px;
-		border:1px solid black;
-		border-radius:5px;
-	}
 	#pcl_principal {
 		margin-left:28px;
 		min-height:240px;
@@ -172,84 +141,93 @@ body{
 		height:60px;
 	}
 	#pcl_grupos{
-		float:left;
-		width:31%;
 		border:1px solid black;
 		border-radius:5px;
+		margin-bottom:20px;
 		
 	}
 	#pcl_cursos{
-		float:left;
-		width:31%;
 		border:1px solid black;
 		border-radius:5px;
 		
 	}
 	#pcl_asesorias {
-		float:left;
-		width:33%;
 		border:1px solid black;
 		border-radius:5px;
+		margin-bottom:20px;
 		
 	}
 	
 /*cuerpo*/
 /*publicidad y extras*/
 	#pcl_lateral{
-		float:left;
-		width:26%;
+		margin: 0px 30px 0px 71%;
 		min-height:490px;
 		background-color:#FFE564;
 		border-radius:5px;
-		margin-right:30px;
 		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
 	}
 	#pcl_lateral img{
-		width:250px;
+		width:200px;
 		height:200px;
+		padding: 0px 10px 0px 15px;
+	}
+	#pc1_lateral div{
+		text-align:center;
 	}
 /*publicidad y extras*/
 /*pie de pagina*/
 	#f1{
 		clear:both;
-		min-height:250px;
-		background-image:url("img/lapiz.png");
+		min-height:220px;
+		background-color:#B3D5FA;
 		background-size:100% 100%;
 		background-repeat:no-repeat;
+		margin:0px;
 	}
 	
 	#fsleft{
 		margin-top:0px;
-		margin-left:30%;
+		margin-left:0px;
 		float:left;
-		width:17%;
-		
+		width:30%;
+		margin-bottom:0px;
+		text-align:center;
 	}
 	#fsright{
-		float:left;
-		}
-	#fscenter{
-		float:left;
-		width:20%;
+		float:right;
+		width:30%;
+		margin-top:0px;
+		text-align:center;
+		
 	}
+	
+	#fscenter{
+		margin:0px 38%;
+		margin-bottom:0px;
+		text-align:center;
+	}
+	
 	.fs li{
 		color: #0000FF;
 		list-style:none;
-		padding: 5px;
+		padding: 10px;
 		text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 		font-size: 14px;
-		font-weight: bold;
-		font-family: 'Arial Black';
 	}
 	#f2 {
+		padding:20px;
 		background-color:#0e1a46;
 		text-align:center;
+		margin:0px;
+		color:#FFFFFF;
 	}
-	#f2 span{
-		margin-left:2%;
-		font-size:18px;
-		display:inline-block;
-		color:#fff;
+	
+	.fim{
+		width:30px;
+		margin-bottom:0px;
 	}
 	
 /*pie de pagina*/
@@ -366,6 +344,7 @@ body{
     border-radius: 3px;
     color: #111;
 }
+
 /*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
 
 #nos_text{
@@ -381,16 +360,13 @@ body{
 }
 #nos_imagen{
 	margin:25%;
-	}
-
-
-
-
+}
+	
 /*HOJA DE REGISTRO*/
 #cuerpo_requi {
 	font-family:Arial;
 	margin:auto;
-	width:1200px;
+	width:1000px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
 }
@@ -398,6 +374,7 @@ body{
 	color:blue;
 	text-align:center;
 }
+
 
 #izquierda_requi {
 	float: left;
@@ -590,12 +567,6 @@ h1{
 		}
 		
 /*******************************************/
-/* -----Olvide mi contraseña------ */
-#body_olvide{
-	width:1200px;
-	margin:auto;
-}
-
 #tituloConfirmarC{
 	text-align:center;
 	padding-bottom:30px;
