@@ -1,14 +1,34 @@
-<!doctype html>
+<!Doctype html>
 <html>
-    <head>
-        <title>Etiquetas de seleccion</title>
-        <link href="hojaprincipal.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div id="pcl_contenedor">
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
+		<script language="javascript"> 
+			var Intervalo=3000; 
+			var Imagenes=new Array; 
+			var IDImagen=0; 
+
+			Imagenes[1]="img/anuncioa.png"; 
+			Imagenes[2]="img/anunciob.png";
+
+			function CambiarImagen() 
+			{ 
+			setTimeout("CambiarImagen()",Intervalo); 
+			IDImagen++; 
+			document.images["MiImagen"].src=Imagenes[IDImagen]; 
+
+			if(IDImagen==Imagenes.length-1) 
+				{ 
+				IDImagen=0; 
+				} 
+			} 
+		</script> 
+	</head>
+	<body>
+		<div id="pcl_contenedor">
 			<header id="pcl_cabecera">
 				<div id="logo">
-				<img id="logo" src="img/logoSG.png"/>
+					<img id="logo" src="img/logoSG.png"/>
 				</div>
 				<div id="registro">
 					<a class="reg" href="IniciarSesion.html">Registrarse<img src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
@@ -19,13 +39,8 @@
 						<a class="redes" href="" target="_black"><img id="tt" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
 						<a class="redes" href="" target="_black"><img id="yt" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
 						</div>
-				</div>	
-				<div id="busqueda">
-					<form id="buscar">
-						<input id="pchdtext" type="text" placeholder=" Escribe el curso que desee buscar" />
-						<input id="btnbuscar" type="button" value="buscar"/>
-					</form>
 				</div>
+				
 			</header>
 			<nav id="pcl_navegacion">
 				<ul>
@@ -35,43 +50,45 @@
 					<li><a href="">Contactenos</a></li>
 				</ul>
 			</nav>
-			<h1 style="color:black">Asesorias Presenciales</h1>
-        
-			<section id="principal">
-				<p>Selecione el curso que usted desea pedir asesoria o solicite un curso nuevo:</p>
-				<div>
-					<section id="ingles">
-						<img id="AsesoryP" alt="Ingles IV" src="http://alistore.eu/images/partners/logos_official/cambridge-logo.png" />
-						<br />
-						<a href="">Ingles III</a>
-					</section>           
-					<section id="cuv">
-						<img id="AsesoryP" alt="Cálculo I" src="http://4.bp.blogspot.com/_qPZXMNrokCQ/TFyhfRTQvVI/AAAAAAAAADg/RydqLCdCFZk/s1600/CALCULO+INTEGRAL.png" />
-						<br />
-						<a href="">Cálculo I</a>
-					</section>
-				</div>
-				<br/>           
-				<div id="id2">
-					<section id="fi1">
-						<img id="AsesoryP" alt="Fisica I" src="https://blogsaverroes.juntadeandalucia.es/sierramagina/wp-content/uploads/sites/797/nggallery/educacion/fisica_0.jpg" />
-						<br />
-						<a href="">Física I</a>
-					</section>
-					<section id="agregar">
-						<img id="AsesoryP_add" src="https://image.flaticon.com/icons/png/512/7/7632.png" alt="Agregar"/>
-						<br />
-						<a href="">Solicitar un curso nuevo</a>
-					</section>
-				</div>
+			
+				<section id="pcl_anuncios">
+					<img id="anunn" name="MiImagen" src="https://cancionesdetelevision.com/wp-content/uploads/2015/09/anuncio-san-miguel-00-.jpg" /> 
+					<script language="javascript"> 
+						CambiarImagen(); 
+					</script> 
+				</section>
+				
+			<section id="pcl_cuerpo" >
+			
+				<section  id="pcl_navegacion"  style="color:white" >
+					<a>¿Quienes somos?</a>
+					<a>Misión</a>
+					<a>Visión</a>
+					
+				</section>
+				<section id="nos_text">
+					<h1 style="color: black" >¿QUIENES SOMOS?</h1>
+					</br>
+					<p>SmartGroup; es un proyecto que surge en el año 2017 ante la necesidad de estudiantes
+					que buscan un apoyo acad?mico durante su proceso de aprendizaje. 
+					Un alumno que es asesorado eficazmente y a tiempo, tiene muchas más oportunidades de 
+					optimizar su desempeño acadámico. Además, complementamos el aprendizaje con material educativo dependiendo de los cursos</p>
+					<p>Nuestra mayor fortaleza es el excelente talento humano, integrado por tutores de 
+					las mejores Universidades del país.</p>
+				</section>
+				
+				<span id="nos_imagen"> <img  width="500"  src="img/jovenes-estudiantes-universidad.jpg"  /> </span>
+				
 			</section>
 			<aside id="pcl_lateral">
-				<a href=""><img src="img/Publicidad.gif"/></a></br>
-				<a  id="AdRotator1" href="https://www.usilvirtual.com" target="_black"><img  width="270" height="17"  src="https://www.usilvirtual.com/app/upload/users/4/4408/my_files/AF_C_Psg_SOY-PSICOLOGI%CC%81A_TOTEM-01.jpg"></a>
-				<a href=""><img src="img/Publicidad gif mayo.gif"/></a><br/>
-				<a href=""><img src="img/STIBO-SYSTEMS.gif"/></a></br>
+				<p><strong>Tambien te puede interesar...</strong></p>
+					<nav>
+						<a href=""><img src="img/Publicidad gif mayo.gif"/></a><br/>
+						</br>
+						<a href=""><img src="img/STIBO-SYSTEMS.gif"/></a></br>
+						<a href=""><img src="img/cl.jpg"/></a>
+					</nav>
 			</aside>
-            
 			<footer id="f1">
 					<section class="fs" id="fsleft">
 						<h3><img src="img/Student-64.png" />Micuenta</h3>
@@ -104,5 +121,5 @@
 				<span><img src="img/Help_Circle_Blue.png" />Contactanos al celular: 970116134 Emal: smartgroup@gmail.com</span>
 			</footer>
 		</div>
-    </body>
+	</body>
 </html>
