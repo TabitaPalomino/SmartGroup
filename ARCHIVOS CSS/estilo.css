@@ -412,104 +412,64 @@ body{
 	width:1000px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
-	
-}
-#cabeza_requi {
-	color:blue;
+	border-radius:5px;	
 	text-align:center;
 }
-
-
+#logoRegistrar{
+}
 #izquierda_requi {
 	float: left;
 	text-align:left;
-	width:40%;
+	width:45%;
 	padding:10px;
-	border:1px solid yellow;
+	border-right:3px solid yellow;
+	padding:20px 0px 20px 10px;
 	
 }
 #derecha_requi {
-	/* border: 1px solid black; */
 	width:auto;
-	padding:10px;	
-	border:1px solid pink;
-	margin-left:45%;
-}
-#mini_cuerpo {
-	height: 350px;
-	border:1px solid gray;
 	padding:10px;
-	border-radius:6px;
-	box-shadow:0px 0px 10px #090909;
-	
+	margin-left:50%;
+	text-align:left;
 }
-#contraimg{
-	float:left;
-	margin-left:15%;
-	margin-top:20px;
-}
-#BotonListo{
-	margin-left:35%;	
-}
-#BtListo{
-	width:100px;
-	padding:10px;
-	font-size:14px;
-	color:white;
-	background-color:#1E90FF;
-}
+
 .imagen_forma {
 	float:left;
 	border-radius:6px;
-	border:1px solid green;
-	width:70px;
+	width:80px;
+	margin:0px 10px 0px 40px;
 }
 .beneficio{
-	
+	margin:10px auto;
 }
 
-/*#letras_forma {
+.letras_forma {
 	margin-left:30%;
 	padding:17px;
-	border:1px solid white;
 	border-radius:6px;
 	
 }
-#imagen_forma2 {
-	float:left;
-	border-radius:6px;
-}
-#letras_forma2 {
-	margin-left:30%;
-	padding:17px;
-	border:1px solid white;
-	border-radius:6px;
-}
-#imagen_forma3 {
-	float:left;
-	border-radius:6px;
-}
-#letras_forma3 {
-	margin-left:30%;
-	padding:17px;
-	border:1px solid white;
-	border-radius:6px;
-}*/
 .row {
 	padding: 12px;
 	
 }
-#Textnom, #TextApe, #TextE-mail, #pass1, #pass2, #TextAlterE-mail{
-	width: 30%;
+#ofertasEspeciales{
+	border-top: 2px dashed black;
+	padding:10px;
+	margin:30px 10px 10px 10px;
+}
+.Textnom{
+	width: 60%;
     height: 35px;
     background: white;
-    padding: 0 30px 0 15px;
+    padding: 0 5px;
     line-height: normal;
     font-family: Arial, regular;
     font-size: 13px;
     border: none;
     border-radius: 3px;
     color: #111;
+	border:1px solid red;
 }
 #btnRegis {
 	border: 1px solid gray;
