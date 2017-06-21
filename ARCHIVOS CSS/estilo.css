@@ -2,6 +2,7 @@ body{
 	font-family:Arial;
 	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
 	background-size:100% 100%;
+	background-repeat:no-repeat;
 	}
 body *{
 	margin:5px;
@@ -230,17 +231,8 @@ body{
 /*pagina principal*/
 
 /*INICIAR SESION*/
-#contenedorIS{
-	width:70%;
-    margin:50px auto;
-	background-color:#F4F5F5;
-	box-shadow: 15px 0px 5px #090909;
-	box-shadow: 0px 0px 30px #090909;
-	min-height:600px;
-	
-}
 #logoIS{
-	width:40%;
+	width:85%;
 	margin:20px auto 10px auto;
 }
 #centroI{
@@ -255,6 +247,7 @@ body{
     width: 450px;
     margin:10px auto 5px auto;
 	border-radius: 6px;
+	background-color:#F4F5F5;
 }
 #re{
 	margin-top:20px;
@@ -666,6 +659,17 @@ h1{
 }
 #BotonListo{
 	padding-top:20px;
+}
+#olvidecontras{
+	box-shadow: 5px 0px 5px #090909;
+	box-shadow: 0px 0px 10px #090909;
+    text-align: center;
+    padding: 2px 30px 20px 30px;
+    min-height: 250px; 
+    width: 450px;
+    margin:102px auto 102px auto;
+	border-radius: 6px;
+	background-color:#F4F5F5;
 }
 
 /*******************************************/		
