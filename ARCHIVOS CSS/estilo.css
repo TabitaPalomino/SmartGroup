@@ -233,7 +233,7 @@ body{
 	#pcl_lateral{
 		margin: 0px 30px 0px 71%;
 		min-height:490px;
-		background-color:#FFE564;
+		/*background-color:#87CEEB;*/
 		border-radius:5px;
 		text-align:center;
 		padding-top:10px;
@@ -251,32 +251,25 @@ body{
 /*pie de pagina*/
 	#f1{
 		clear:both;
-		min-height:220px;
-		background-image:url(img/lapiz.png);
+		min-height:280px;
+		background-image:url(../IMAGENES/lapiz.png);
 		background-size:100% 100%;
 		margin:0px;
 	}
 	
 	#fsleft{
 		margin-top:0px;
-		margin-left:0px;
+		margin-left:33%;
 		float:left;
-		width:30%;
+		width:21%;
 		margin-bottom:0px;
-		text-align:center;
-	}
-	#fsright{
-		float:right;
-		width:30%;
-		margin-top:0px;
-		text-align:center;
 		
 	}
-	
-	#fscenter{
-		margin:0px 38%;
-		margin-bottom:0px;
-		text-align:center;
+	#fsright{
+		float:left;
+		width:30%;
+		margin-top:0px;
+		
 	}
 	
 	.fs li{
@@ -422,16 +415,15 @@ body{
 /*HOJA DE REGISTRO*/
 #cuerpo_requi {
 	font-family:Arial;
-	margin:auto;
+	margin:30px auto;
 	width:1000px;
 	background:#F4F5F5;
 	box-shadow:0px 0px 25px #090909;
-	border:1px solid red;
+	
 }
 #cabeza_requi {
 	color:blue;
 	text-align:center;
-	border:1px solid blue;
 }
 
 
@@ -458,7 +450,21 @@ body{
 	box-shadow:0px 0px 10px #090909;
 	
 }
-
+#contraimg{
+	float:left;
+	margin-left:15%;
+	margin-top:20px;
+}
+#BotonListo{
+	margin-left:35%;	
+}
+#BtListo{
+	width:100px;
+	padding:10px;
+	font-size:14px;
+	color:white;
+	background-color:#1E90FF;
+}
 .imagen_forma {
 	float:left;
 	border-radius:6px;
