@@ -2,23 +2,29 @@
 <html>
 	<head>
 		<title>Smart Group</title>
+<<<<<<< HEAD
 		<link rel="shortcut icon" href="../IMAGENES/Icono.png"/>
+=======
+>>>>>>> 715c9f7140fe1df2bbbcad28b333019b8b5ae438
 		<link href="../ARCHIVOS CSS/estilo.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../IMAGENES/icono.png"/>
+		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
 	</head>
 	<body>
 		<div id="pcl_contenedor">
 			<header id="pcl_cabecera">
 				<div id="logo">
-				<img id="logo" src="img/logoSG.png"/>
+					<img id="logo" src="../IMAGENES/logoSG.png"/>
 				</div>
 				<div id="registro">
-					<a class="reg" href="IniciarSesion.html">Registrarse<img src="https://maxcdn.icons8.com/Share/icon/ios7/Science//student_registration_filled1600.png"/></a></li>
-					<a class="reg" href="Registro.html">Iniciar Sesion<img src="http://icon-icons.com/icons2/37/PNG/512/Logon_theapplication_2961.png"/></a></li>
+					<a class="reg" href="IniciarSesion.html">Iniciar Sesion<img src="../IMAGENES/iconoIniciarSesion.png"/></a></li>
+					<a class="reg" href="Registro.html">Registrarse<img src="../IMAGENES/iconoRegistrarse.png"/></a></li>
+					
 					<br/><br/>
 						<div id="redes">
-						<a class="redes" href="" target="_black"><img id="fb" src="http://img.freepik.com/iconos-gratis/facebook_318-136394.jpg?size=338&ext=jpg"/></a>	
-						<a class="redes" href="" target="_black"><img id="tt" src="https://www.seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview.png"/> </a>
-						<a class="redes" href="" target="_black"><img id="yt" src="http://www.collisionworksokc.com/wp-content/uploads/2016/09/Document.png"/> </a>
+						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconofb.jpg"/></a>	
+						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconotw.png"/> </a>
+						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconoytb.png"/> </a>
 						</div>
 				</div>	
 				<div id="busqueda">
@@ -27,33 +33,60 @@
 						<input id="btnbuscar" type="button" value="buscar"/>
 					</form>
 				</div>
+				
+				<nav id="pcl_navegacion">
+					<ul>
+					<li><img src="../IMAGENES/iconoInicio.png"/><a href="">Inicio</a></li>
+					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Cursos</a></li>
+					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="">Asesorias</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					</ul>
+				</nav>
 			</header>
-			<nav id="pcl_navegacion">
-				<ul>
-					<li><a href="">Inicio</a></li>
-					<li><a href="">Cursos</a></li>
-					<li><a href="">Asesorias</a></li>
-					<li><a href="">Contactenos</a></li>
-				</ul>
-			</nav>
 		<div id="cabeza_requi">
-			<h1>Recuperación de Contraseña </h1>
+			<h1 style="color:black; margin-top:30px;">Recuperación de contraseña </h1>
 		</div>
 		<article id="cuerpo_requi">
 			<section id="seccionRecuperarCuenta">
+				<img id="contraimg" width="200" src="../IMAGENES/iconoRecuperarCont.jpg"/>
 				<p id="textoRecuperarContraseña">Completa el siguiente formulario</p>
 				<br />
 				<div class="row ui-row">
-					<input id="TextE-mail" name="e-mail" value-required="true" type="text" data-message="Ingrese el correo electrónico" placeholder="Correo Electrónico"> 
+					<input id="TextE-mail" name="e-mail" value-required="true" type="text" data-message="Ingrese el correo electrónico alternativo" placeholder="Correo Electrónico Alternativo"> 
 				</div>
 				<div class="row ui-row">
 					<input id="pass1" name="clave" data-require="true" type="password" data-message="Ingresa tu contraseña, la contraseña debe tener mínimo 15 caracteres." placeholder="Nueva Contraseña"> 
 				</div>
 				<section id="BotonListo">
-					<button id="BtListo" href="ConfirmaRecuperacionPassword.html" >Listo</button>
+					<button id="BtListo" href="ConfirmaRecuperacionPassword.html" >Enviar contraseña</button>
 				</section>
 			</section>
+			
 		</article>
+		<footer id="f1">
+					<section class="fs" id="fsleft">
+						<h3><img class="fim" src="../IMAGENES/iconoMiCuenta.png" />Micuenta</h3>
+						<ul>
+							<li><a href="">Mis asesorias</a></li>
+							<li><a href="">Mis calendarios</a></li>
+							<li><a href="">Configuracion</a></li>
+						</ul>
+					</section>
+					<section class="fs" id="fsright">
+						<h3><img class="fim" src="../IMAGENES/iconoNosotros.png" />Nosotros</h3>
+						<ul>
+							<li><a href="">Informacion como empresa</a></li>
+							<li><a href="">Promociones</a></li>
+							<li><a href="">Te ayudamos</a></li>
+							<li><a href="">Politicas de la empresa</a></li>
+						</ul>
+					</section>
+					
+			</footer>
+			<footer id="f2">
+				&copy SmartGroup 2017
+			</footer>
+		
 		</div>
 	</body>
 </html>
