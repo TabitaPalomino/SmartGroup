@@ -1,3 +1,4 @@
+/*pagina principal*/
 body{
 	font-family:Arial;
 	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
@@ -23,8 +24,6 @@ body{
 		background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
 		background-size:100%;
 	}
-	
-	
 	/*logo*/
 		#logo{
 			float:left;
@@ -63,8 +62,6 @@ body{
 			width: 35px;
 			border-radius:4px;			
 		}
-		
-		
 	/*regisro*/
 	/*busqueda*/	
 		#busqueda{
@@ -86,7 +83,6 @@ body{
 		}
 	/*busqueda*/
 /*cabecera*/
-
 /*navegacion*/
 	a{
 		text-decoration:none;
@@ -115,7 +111,7 @@ body{
 		width:18px;
 	}
 /*navegacion*/
-/*cuerpo eventosSG*/
+/*anuncio general*/
 	#pcl_anuncios{
 		text-align:center;
 	}
@@ -124,6 +120,8 @@ body{
 		width:972px;
 		margin:10px auto;
 	}
+/*anuncio general*/
+/*cuerpo*/
 	#pcl_cuerpo{
 		float:left;
 		width:72%;
@@ -141,54 +139,52 @@ body{
 	#pcl_principal p{
 		min-height:10px;
 	}
-/* maquetacion de talleres*/
-	#pcl_talleres{
-		border:1px solid black;
-		border-radius:5px;
-		margin-bottom:20px;
-		
-	}
-	#pcl_talleres a{
+	/* maquetacion de talleres*/
+		#pcl_talleres{
+			border:1px solid black;
+			border-radius:5px;
+			margin-bottom:20px;
+		}
+		#pcl_talleres a{
 		color:blue;
+		}
+		#pcl_talleres ul{
+			padding-left:10px;
+		}
+		.tl_s{
+			border:1px solid blue;
+			min-height:200px;
+			float:left;
+			width:31%;
+		}
+		.tl_titu{
+			border:1px solid blue;
+			min-height:50px;
+		}
+		.tl_artc{
+			border:1px solid blue;
+			min-height:80px;
+		}
+		.tl_ft{
+			border:1px solid blue;	
+		}
+		#tl_ftlink{
+			clear:both;
+			border:1px solid blue;
 	}
-	#pcl_talleres ul{
-		padding-left:10px;
-	}
-	
-	.tl_s{
-		border:1px solid blue;
-		min-height:200px;
-		float:left;
-		width:31%;
-	}
-	.tl_titu{
-		border:1px solid blue;
-		min-height:50px;
-	}
-	.tl_artc{
-		border:1px solid blue;
-		min-height:80px;
-	}
-	.tl_ft{
-		border:1px solid blue;	
-	}
-	#tl_ftlink{
-		clear:both;
-		border:1px solid blue;
-	}
-/* maquetacion de talleres*/
-/*maquetacion de asesorias*/
-	#pcl_asesorias {
-		border:1px solid black;
-		border-radius:5px;
-		margin-bottom:20px;
-	}
-	#pcl_asesorias a{
-		color:blue;
-	}
-	#pcl_asesorias ul{
-		padding-left:10px;
-	}
+	/* maquetacion de talleres*/
+	/*maquetacion de asesorias*/
+		#pcl_asesorias {
+			border:1px solid black;
+			border-radius:5px;
+			margin-bottom:20px;
+		}
+		#pcl_asesorias a{
+			color:blue;
+		}
+		#pcl_asesorias ul{
+			padding-left:10px;
+		}
 		.as_s{
 			border:1px solid blue;
 			min-height:200px;
@@ -210,18 +206,18 @@ body{
 			clear:both;
 			border:1px solid blue;
 		}
-/*maquetacion de asesorias*/
-/*maquetacion de cursos*/
-	#pcl_lugares{
+	/*maquetacion de asesorias*/
+	/*maquetacion de cursos*/
+		#pcl_lugares{
 			border:1px solid black;
 			border-radius:5px;
-	}
-	#pcl_lugares a{
-		color:blue;
-	}
-	#pcl_lugares ul{
-		padding-left:10px;
-	}
+		}
+		#pcl_lugares a{
+			color:blue;
+		}
+		#pcl_lugares ul{
+			padding-left:10px;
+		}
 		.cs_s{
 			border:1px solid blue;
 			min-height:200px;
@@ -243,11 +239,7 @@ body{
 			clear:both;
 			border:1px solid blue;
 		}
-/*maquetacion de cursos*/	
-	
-	
-	
-	
+	/*maquetacion de cursos*/	
 /*cuerpo*/
 /*publicidad y extras*/
 	#pcl_lateral{
