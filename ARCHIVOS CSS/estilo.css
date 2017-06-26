@@ -1,4 +1,4 @@
-body{
+﻿body{
 	font-family:Arial;
 	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
 	background-size:100% 100%;
@@ -441,7 +441,7 @@ body{
 	text-align:left;
 	width:45%;
 	padding:10px;
-	border-right:3px solid yellow;
+	border-right:3px dashed gray;
 	padding:20px 0px 20px 10px;
 	
 }
@@ -478,8 +478,8 @@ body{
 	margin:30px 10px 10px 10px;
 }
 .Textnom{
-	width: 60%;
-    height: 35px;
+	width: 70%;
+    height: 40px;
     background: white;
     padding: 0 5px;
     line-height: normal;
@@ -488,14 +488,14 @@ body{
     border: none;
     border-radius: 3px;
     color: #111;
-	border:1px solid blue;
 }
 #btnRegis {
-	border: 1px solid gray;
-	border-radius:6px;
-	box-shadow:0px 0px 10px #090909;
+	margin-left:120px;
 }
 
+#mini_cuerpo_regis{
+	margin-left:70px;
+}
 /*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
 
 #nos_text{
