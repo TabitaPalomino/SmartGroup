@@ -11,7 +11,7 @@ body{
 	margin-top:0px;
 }
 #pcl_contenedor{
-	width:85%;
+	width:90%;
 	margin:auto;
 	background-color:#F4F5F5;
 	box-shadow: 0px 0px 30px #090909;
@@ -126,7 +126,7 @@ body{
 	}
 	#pcl_cuerpo{
 		float:left;
-		width:70%;
+		width:72%;
 		min-height:300px;
 	}
 	
@@ -148,13 +148,20 @@ body{
 		margin-bottom:20px;
 		
 	}
+	#pcl_talleres a{
+		color:blue;
+	}
+	#pcl_talleres ul{
+		padding-left:10px;
+	}
+	
 	.tl_s{
 		border:1px solid blue;
 		min-height:200px;
 		float:left;
-		width:48%;
+		width:31%;
 	}
-	.tl_img{
+	.tl_titu{
 		border:1px solid blue;
 		min-height:50px;
 	}
@@ -176,13 +183,19 @@ body{
 		border-radius:5px;
 		margin-bottom:20px;
 	}
+	#pcl_asesorias a{
+		color:blue;
+	}
+	#pcl_asesorias ul{
+		padding-left:10px;
+	}
 		.as_s{
 			border:1px solid blue;
 			min-height:200px;
 			float:left;
-			width:48%;
+			width:31%;
 		}
-		.as_img{
+		.as_titu{
 			border:1px solid blue;
 			min-height:50px;
 		}
@@ -199,17 +212,23 @@ body{
 		}
 /*maquetacion de asesorias*/
 /*maquetacion de cursos*/
-	#pcl_cursos{
+	#pcl_lugares{
 			border:1px solid black;
 			border-radius:5px;
 	}
+	#pcl_lugares a{
+		color:blue;
+	}
+	#pcl_lugares ul{
+		padding-left:10px;
+	}
 		.cs_s{
 			border:1px solid blue;
-			min-height:320px;
+			min-height:200px;
 			float:left;
-			width:48%;
+			width:31%;
 		}
-		.cs_img{
+		.cs_titu{
 			border:1px solid blue;
 			min-height:50px;
 		}
