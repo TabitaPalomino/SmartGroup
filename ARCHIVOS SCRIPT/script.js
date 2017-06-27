@@ -1,4 +1,4 @@
-//eventos pagina principal
+//Eventos pagina principal
 var Intervalo=4000; 
 var Imagenes=new Array; 
 var IDImagen=0; 
@@ -14,4 +14,9 @@ function CambiarImagen(){
 	if(IDImagen==Imagenes.length-1){ 
 		IDImagen=0; 
 	} 
+}
+
+//Mensaje de bienvenida
+function OpenVentana(){
+	$('.ventana').slideDown("slow");
 }

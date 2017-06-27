@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 ﻿body{
-=======
-/*pagina principal*/
-body{
->>>>>>> origin/master
 	font-family:Arial;
 	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
 	background-size:100% 100%;
 	background-repeat:no-repeat;
-	}
+}
 body *{
 	margin:5px;
 }
@@ -23,69 +18,68 @@ body{
 	min-height:500px;
 }
 /*cabecera*/
-	#pcl_cabecera{
-		min-height:150px;
-		background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
-		background-size:100%;
-	}
-	/*logo*/
-		#logo{
-			float:left;
-			width:35%;
-		}
-		#logo img{
-			width:340px;	
-			margin:20px auto;
-		}
-	/*logo*/
-	/*regisro*/
-		#registro{
-			float:right;
-			width:29%;
-			margin-top:25px;
-		}
-		#registro .reg{
-			font-size:17px;
-			float:right;
-			margin-top:2px;
-			margin-right:10px;
-			
-		}
-		.reg img{
-			width: 15px;
-			margin-bottom:0px;
-		}
-		#redes{
-			width:80%;
-		}
-		.redes{
-			float:right;
-			margin-top:0px;
-		}
-		.redes img{
-			width: 35px;
-			border-radius:4px;			
-		}
-	/*regisro*/
-	/*busqueda*/	
-		#busqueda{
-			padding-top:58px;
-			margin-left:35%;
-			margin-right:29%;
-			background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
-			background-repeat: no-repeat;	
-			background-size: 200px;
-			background-position: 48px;
-			text-align: right;
-			height:80px;
-		}
-		#buscar{
-			padding-top:25px;
-		}
-		#pchdtext{
-			width:67%;
-		}
-	/*busqueda*/
+#pcl_cabecera{
+	min-height:150px;
+	background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
+	background-size:100%;
+}
+/*logo*/
+#logo{
+	float:left;
+	width:35%;
+}
+#logo img{
+	width:340px;	
+	margin:20px auto;
+}
+/*logo*/
+/*regisro*/
+#registro{
+	float:right;
+	width:29%;
+	margin-top:25px;
+}
+#registro .reg{
+	font-size:17px;
+	float:right;
+	margin-top:2px;
+	margin-right:10px;	
+}
+.reg img{
+	width: 15px;
+	margin-bottom:0px;
+}
+#redes{
+	width:80%;
+}
+.redes{
+	float:right;
+	margin-top:0px;
+}
+.redes img{
+	width: 35px;
+	border-radius:4px;			
+}
+/*regisro*/
+/*busqueda*/	
+#busqueda{
+	padding-top:58px;
+	margin-left:35%;
+	margin-right:29%;
+	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
+	background-repeat: no-repeat;			
+	background-size: 200px;
+	background-position:80px;
+	text-align: right;
+	height:80px;
+}
+#buscar{
+	padding-top:25px;
+}
+#pchdtext{
+	width:67%;
+}
+/*busqueda*/
 /*cabecera*/
 /*navegacion*/
 	a{
@@ -318,7 +312,7 @@ body{
 /*INICIAR SESION*/
 #logoIS{
 	width:85%;
-	margin:20px auto 10px auto;
+	margin:25px auto 10px auto;
 }
 #centroI{
 	text-align:center;
@@ -333,6 +327,7 @@ body{
     margin:10px auto 5px auto;
 	border-radius: 6px;
 	background-color:#F4F5F5;
+	margin-top:42px;
 }
 #re{
 	margin-top:20px;
@@ -409,7 +404,7 @@ body{
 }
 .correo{
 	width: 80%;
-    height: 35px;
+    height: 43px;
     background: white;
     padding: 0 30px 0 15px;
     line-height: normal;
@@ -474,7 +469,7 @@ body{
 	margin:30px 10px 10px 10px;
 }
 .Textnom{
-	width: 70%;
+	width: 74%;
     height: 40px;
     background: white;
     padding: 0 5px;
@@ -486,12 +481,44 @@ body{
     color: #111;
 }
 #btnRegis {
-	margin-left:120px;
+	margin;25px auto;
 }
 
 #mini_cuerpo_regis{
 	margin-left:70px;
 }
+
+/*Mensaje de bienvenida*/
+/* base semi-transparente */     
+.overlay{         
+    display: none;        
+    position: absolute;         
+    top: 0;         
+    left: 0;         
+    width: 100.7%;         
+    height: 128%;
+    background: #000;         
+    z-index:1001; 
+	opacity:0.75;         
+    -moz-opacity: 0.75;         
+    filter: alpha(opacity=75);     
+	margin:-10px 0px 0px -10px;
+}    
+    
+/* estilo para la ventana modal */   
+.modal {         
+    display: none;         
+    position: absolute;         
+    top: 15%;        
+    width: 80%;         
+    height: 100%;         
+	color: #333;         
+    z-index:1002;        
+    overflow: auto;
+	padding-left:130px;	
+	margin:0px auto;
+}
+
 /*HOJA DATOS DE NOSOTOS COMO EMPRESA*/
 
 #nos_text{

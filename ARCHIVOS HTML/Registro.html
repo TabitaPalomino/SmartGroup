@@ -4,9 +4,22 @@
 		<title>Smart Group-Requistro</title>
 		<link rel="shortcut icon" href="../IMAGENES/Icono.png"/>
         <link href="../ARCHIVOS CSS/estilo.css" rel="stylesheet" />
-		
+		<script src="../ARCHIVOS SCRIPT/script.js"></script>
 	</head>
 	<body>
+			<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="olvidecontras"> 
+			<section id="centroI">
+				<img id="logoIS" src="../IMAGENES/logoSG.png"/></section>		
+				<h2>FELICIDADES!</h2>
+				<br/>
+				<p>Ahora ya puedes disfrutar de todas las promociones y actividades en nuestra comunidad.</p>
+				<br/>
+				<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="PaginaPAlumno.html">Comenzar Ahora</a></button></a>
+			</section>
+			</div>
+		
 		<article id ="cuerpo_requi">
 		<img id="logoRegistrar" src="../IMAGENES/logoSG.png"/ width="400">
 		<h1 style="color:black">CREAR UNA NUEVA CUENTA</h1>
@@ -46,11 +59,11 @@
 						<input class="Textnom" name="clave2" data-required="true" type="password" data-message="Repetir su contraseña, la contaseña debe coincidir con la rimera dada." placeholder="Confirmar contraseña" data-messagepas="Las contraseñas no coinciden"> <br/>
 						<input class="Textnom" name="correo alternativo" value-required="true" type="text" data-message="Ingrese su correo alternativo" placeholder="Correo Electronico Alternativo"> 
 				</form>	
-				<br/>
-				<a id="btnRegis" href="IniciarSesion.html" onclick="alert('Felicidades!!! Ahora ya puedes disfrutar de todas las promociones y actividades en nuestra comunidad. *INICIAR SESIÓN*')"><img width="200" src="../IMAGENES/crearCuenta.jpg"/></a>
-				<br>
 			</section>
-			
+				<br/>
+				<a id="btnRegis" href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">
+				<img width="200" src="../IMAGENES/crearCuenta.jpg"/></a>
+				<br>
 		</article>
 		<footer class="footerg">
 				&copy SmartGroup 2017

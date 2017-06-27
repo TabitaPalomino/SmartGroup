@@ -9,16 +9,33 @@
 
 	</head>
 	<body>
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="olvidecontras"> 
+			<section id="centroI">
+				<img id="logoIS" src="../IMAGENES/logoSG.png"/></section>		
+				<h2>CONFIRMACIÓN DE RECUPERACION DE CONTRASEÑA</h2>
+				<br/>
+				<p>Hemos enviado un correo electronico para que usted pueda
+					recuperar su contraseña. Por favor, seguir las instrucciones.</p>
+				<br/>
+				<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="IniciarSesion.html">Aceptar</a></button></a>
+			</section>
+		</div>
+		
 		<div ID="olvidecontras"> 
 				<img id="logoIS" src="../IMAGENES/logoSG.png"/></section>		
 				<h2>OLVIDE MI CONTRASEÑA</h2><br/>
 				<p>Para restablecer tu contraseña, introduce tu correo electronico alternativo que registraste como parte de tus datos.</p>
 				<br/>
 				<section id="seccionCorreo">			
-				<input class="correo" type="text" placeholder="Correo Electrónico Alternativo" size="50"/>
+				<input class="correo" type="text" placeholder="Correo Electrónico Alternativo"/>
 				</section>
 				<br/>
-				<button id="Bregistro"><a href="mensajeRecuperarC.html">Continuar</a></button>
+				<a id="btnRegis" href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">
+				<img src="../IMAGENES/aceptar.png"/></a>
+				
+				
 		</div>
 		<footer class="footerg"> &copy 2017 SmartGroup</footer>
 	</body>
