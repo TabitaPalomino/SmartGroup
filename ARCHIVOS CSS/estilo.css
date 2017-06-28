@@ -10,6 +10,12 @@ body *{
 body{
 	margin-top:0px;
 }
+h1{
+    font-size: 40px;
+    padding-left: 25px;
+	color:white;
+}
+
 #pcl_contenedor{
 	width:90%;
 	margin:auto;
@@ -32,7 +38,7 @@ body{
 	width:340px;	
 	margin:20px auto;
 }
-/*logo*/
+
 /*regisro*/
 #registro{
 	float:right;
@@ -60,12 +66,12 @@ body{
 	width: 35px;
 	border-radius:4px;			
 }
-/*regisro*/
-/*busqueda*/	
+
+/*BUSQUEDA*/	
 #busqueda{
 	padding-top:58px;
 	margin-left:35%;
-	margin-right:29%;
+	margin-right:35%;
 	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
 	background-repeat: no-repeat;			
 	background-size: 200px;
@@ -79,235 +85,214 @@ body{
 #pchdtext{
 	width:67%;
 }
-/*busqueda*/
-/*cabecera*/
-/*navegacion*/
-	a{
-		text-decoration:none;
-	}
-	#pcl_navegacion{
-		background-color: #047ECE;
-		padding: 5px 0px;
-		margin:0px;
-	}
-	#pcl_navegacion ul{
-		text-align:center;
-		padding:2px;
-		margin:0px;
-	}
-	#pcl_navegacion ul li{
-		display:inline-block;
-		margin:0px 50px;
-	}
-	#pcl_navegacion ul li a{
-		font-size:20px;
-		color:#fff;
-		margin:0px 0px 2px 1px;
-	}	
-	#pcl_navegacion ul li img{
-		margin:2px 2px 0px 0px;
-		width:18px;
-	}
-/*navegacion*/
-/*anuncio general*/
-	#pcl_anuncios{
-		text-align:center;
-	}
-	#pcl_anuncios img{
-		border-radius:4px;
-		width:972px;
-		margin:10px auto;
-	}
-/*anuncio general*/
-/*cuerpo*/
-	#pcl_cuerpo{
-		float:left;
-		width:72%;
-		min-height:300px;
-	}
+
+/*NAVEGACIÓN*/
+a{
+	text-decoration:none;
+}
+#pcl_navegacion{
+	background-color: #047ECE;
+	padding: 5px 0px;
+	margin:0px;
+}
+#pcl_navegacion ul{
+	text-align:center;
+	padding:2px;
+	margin:0px;
+}
+#pcl_navegacion ul li{
+	display:inline-block;
+	margin:0px 50px;
+}
+#pcl_navegacion ul li a{
+	font-size:20px;
+	color:#fff;
+	margin:0px 0px 2px 1px;
+}	
+#pcl_navegacion ul li img{
+	margin:2px 2px 0px 0px;
+	width:18px;
+}
+
+/*ANUNCIO GENERAL*/
+#pcl_anuncios{
+	text-align:center;
+}
+#pcl_anuncios img{
+	border-radius:4px;
+	width:972px;
+	margin:10px auto;
+}
+
+/*CUERPO*/
+#pcl_cuerpo{
+	float:left;
+	width:72%;
+	min-height:300px;
+}
 	
-	#pcl_principal {
-		margin-left:28px;
-		min-height:240px;
+#pcl_principal {
+	margin-left:28px;
+	min-height:240px;
+}
+
+	
+/* MAQUETACIÓN TALLERES*/
+#pcl_talleres{
+	border-radius:5px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#pcl_talleres a{
+	color:blue;
+}
+#pcl_talleres ul{
+	padding-left:10px;
+}
+.tl_s{
+	min-height:200px;
+	float:left;
+	width:31%;
+}
+.tl_titu{
+	min-height:50px;
+}
+.tl_artc{
+	min-height:80px;
+}
+.tl_ft{
+}
+#tl_ftlink{
+	clear:both;
+}
+
+/*MAQUETACIÓN ASESORIAS*/
+#pcl_asesorias {
+	border:1px solid black;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+#pcl_asesorias a{
+	color:blue;
+}
+#pcl_asesorias ul{
+	padding-left:10px;
+}
+.as_s{
+border:1px solid blue;
+	min-height:200px;
+	float:left;
+	width:31%;
+}
+.as_titu{
+	border:1px solid blue;
+	min-height:50px;
+}
+.as_artc{
+	border:1px solid blue;
+	min-height:80px;
+}
+.as_ft{
+	border:1px solid blue;	
+}
+#as_ftlink{
+	clear:both;
+	border:1px solid blue;
+}
 		
+/*MAQUETACIÓN CURSOS*/
+#pcl_lugares{
+	border:1px solid black;
+	border-radius:5px;
+}
+#pcl_lugares a{
+	color:blue;
+}
+#pcl_lugares ul{
+	padding-left:10px;
+}
+.cs_s{
+	min-height:200px;
+	float:left;
+	width:31%;
 	}
-	#pcl_principal >*{
-		min-height:220px;		
-	}
-	#pcl_principal p{
-		min-height:10px;
-	}
-	/* maquetacion de talleres*/
-		#pcl_talleres{
-			border:1px solid black;
-			border-radius:5px;
-			margin-bottom:20px;
-		}
-		#pcl_talleres a{
-		color:blue;
-		}
-		#pcl_talleres ul{
-			padding-left:10px;
-		}
-		.tl_s{
-			border:1px solid blue;
-			min-height:200px;
-			float:left;
-			width:31%;
-		}
-		.tl_titu{
-			border:1px solid blue;
-			min-height:50px;
-		}
-		.tl_artc{
-			border:1px solid blue;
-			min-height:80px;
-		}
-		.tl_ft{
-			border:1px solid blue;	
-		}
-		#tl_ftlink{
-			clear:both;
-			border:1px solid blue;
-	}
-	/* maquetacion de talleres*/
-	/*maquetacion de asesorias*/
-		#pcl_asesorias {
-			border:1px solid black;
-			border-radius:5px;
-			margin-bottom:20px;
-		}
-		#pcl_asesorias a{
-			color:blue;
-		}
-		#pcl_asesorias ul{
-			padding-left:10px;
-		}
-		.as_s{
-			border:1px solid blue;
-			min-height:200px;
-			float:left;
-			width:31%;
-		}
-		.as_titu{
-			border:1px solid blue;
-			min-height:50px;
-		}
-		.as_artc{
-			border:1px solid blue;
-			min-height:80px;
-		}
-		.as_ft{
-			border:1px solid blue;	
-		}
-		#as_ftlink{
-			clear:both;
-			border:1px solid blue;
-		}
-	/*maquetacion de asesorias*/
-	/*maquetacion de cursos*/
-		#pcl_lugares{
-			border:1px solid black;
-			border-radius:5px;
-		}
-		#pcl_lugares a{
-			color:blue;
-		}
-		#pcl_lugares ul{
-			padding-left:10px;
-		}
-		.cs_s{
-			border:1px solid blue;
-			min-height:200px;
-			float:left;
-			width:31%;
-		}
-		.cs_titu{
-			border:1px solid blue;
-			min-height:50px;
-		}
-		.cs_artc{
-			border:1px solid blue;
-			min-height:80px;
-		}
-		.cs_ft{
-			border:1px solid blue;	
-		}
-		#cs_ftlink{
-			clear:both;
-			border:1px solid blue;
-		}
-	/*maquetacion de cursos*/	
-/*cuerpo*/
-/*publicidad y extras*/
-	#pcl_lateral{
-		margin: 0px 30px 0px 71%;
-		min-height:490px;
-		/*background-color:#87CEEB;*/
-		border-radius:5px;
-		text-align:center;
-		padding-top:10px;
-		padding-bottom:10px;
-	}
-	#pcl_lateral img{
-		width:200px;
-		height:200px;
-		padding: 0px 10px 0px 15px;
-	}
-	#pc1_lateral div{
-		text-align:center;
-	}
-/*publicidad y extras*/
-/*pie de pagina*/
-	#f1{
-		clear:both;
-		min-height:280px;
-		background-image:url(../IMAGENES/lapiz.png);
-		background-size:100% 100%;
-		margin:0px;
-	}
+.cs_titu{
+	min-height:50px;
+}
+.cs_artc{
+	min-height:80px;
+}
+
+#cs_ftlink{
+	clear:both;
+}
+
+/*PUBLICIDAD LATERAL*/
+#pcl_lateral{
+	margin: 0px 30px 0px 71%;
+	min-height:490px;
+	border-radius:5px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#pcl_lateral img{
+	width:200px;
+	height:200px;
+	padding: 0px 10px 0px 15px;
+}
+#pc1_lateral div{
+	text-align:center;
+}
+
+/*PIE DE PAGINA*/
+#f1{
+	clear:both;
+	min-height:280px;
+	background-image:url(../IMAGENES/lapiz.png);
+	background-size:100% 100%;
+	margin:0px;
+}
 	
-	#fsleft{
-		margin-top:0px;
-		margin-left:33%;
-		float:left;
-		width:21%;
-		margin-bottom:0px;
-		
-	}
-	#fsright{
-		float:left;
-		width:30%;
-		margin-top:0px;
-		
-	}
+#fsleft{
+	margin-top:0px;
+	margin-left:33%;
+	float:left;
+	width:21%;
+	margin-bottom:0px;
+}
+#fsright{
+	float:left;
+	width:30%;
+	margin-top:0px;
+}
 	
-	.fs li{
-		color: #0000FF;
-		list-style:none;
-		padding: 10px;
-		text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-		font-size: 14px;
-	}
-	#f2 {
-		padding:20px;
-		background-color:#0e1a46;
-		text-align:center;
-		margin:0px;
-		color:#FFFFFF;
-	}
+.fs li{
+	color: #0000FF;
+	list-style:none;
+	padding: 10px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 14px;
+}
+#f2 {
+	padding:20px;
+	background-color:#0e1a46;
+	text-align:center;
+	margin:0px;
+	color:#FFFFFF;
+}
 	
-	.fim{
-		width:30px;
-		margin-bottom:0px;
-	}
+.fim{
+	width:30px;
+	margin-bottom:0px;
+}
 	
-	.footerg{
-		text-align:center;
-		color:#FFFFFF;
-	}
-/*pie de pagina*/
-/*pagina principal*/
+.footerg{
+	text-align:center;
+	color:#FFFFFF;
+}
 
 /*INICIAR SESION*/
 #logoIS{
@@ -535,9 +520,6 @@ body{
 #nos_imagen{
 	margin:25%;
 }
-	
-
-
 
 /*ASESORIA PRESENCIAL*/
 
@@ -545,23 +527,10 @@ body{
     width: 180px;
 }
 
-h1{
-    font-size: 40px;
-    padding-left: 25px;
-	color:white;
-}
-
-/*p{
-    font-weight: bold;
-    text-align: center;
-    color:#B72A0B;
-    font-size: 18px;
-    
-}*/
-
 #principal{
     float: left;
     width: 70%;
+	text-align:center;
 }
 #lateral{
     margin-left: 70%;
@@ -600,59 +569,41 @@ h1{
     width: 120px;
 }
 
-
-/*div{
-    margin-top:50px;
-    margin-left: 100px;
-}*/
-
 #lateral > a > img{
     min-height:450px;
     width: 350px;
 }
 
 /*SOMI ASESORIA*/
-		/*h1, h2, p{
-			margin-left:25px;
-		}
+#grupo1, #grupo2, #grupo3, #grupo4, #grupo5{
+	float: left;
+	padding-left:15px;
+	text-align: justify;
+}
 		
-		h1{
-			text-shadow: 2px 2px #94AAB6;
-			font-size: 40px;
-		}*/
+.izquierda{
+	float: left;
+	margin:30px;
+}
+#uno{
+	width:70%;
+	border: 1px solid black;
+	float:left;
+}
+#lateral{
+	text-align:center;
+	min-height:300px;
+	background-color:red;
+	margin-left:70%;
+}
+.derecha{
+	margin:40px;
+}
 		
-		
-		#grupo1, #grupo2, #grupo3, #grupo4, #grupo5{
-			float: left;
-			padding-left:15px;
-			text-align: justify;
-			
-		}
-		
-		.izquierda{
-			float: left;
-			margin:30px;
-		}
-		#uno{
-			width:70%;
-			border: 1px solid black;
-			float:left;
-		}
-		#lateral{
-			text-align:center;
-			min-height:300px;
-			background-color:red;
-			
-			margin-left:70%;
-		}
-		.derecha{
-			margin:40px;
-		}
-		
-		#unirme{
-			text-align:center;
-			margin-left:50%;
-		}
+#unirme{
+	text-align:center;
+	margin-left:50%;
+}
 		
 /*******************************************/
 #tituloConfirmarC{
@@ -713,7 +664,7 @@ h1{
 }
 /*TERMINA OLVIDE CONTRASEÑA*/
 
-/* ---------------------------------------- */
+
 /* --------------Confirmar Recuperacion de Contraseña---------- */
 #seccionRecuperarCuenta{
 	border:1px solid black;
@@ -744,5 +695,42 @@ h1{
 	background-color:#F4F5F5;
 }
 
-/*******************************************/		
-		
+/******************************************/		
+
+/*PERFIL ESTUDIANTE*/
+.perfilEstudiante{
+	float:right;
+	width:30%;
+	text-align:left;
+}
+
+.fotoEstudiante{
+	margin-right:205px;
+}
+.fotoEstudiante > img{
+	display:block;
+	margin:0px;
+}
+.nombreEstudiante{
+	text-transform:uppercase;
+	text-align:center;
+	height:100px;
+	padding:10px auto;
+	text-align:center;
+	float:right;
+	width:190px;
+	padding-top:9px;;
+
+}
+
+/*PAGINA PRINCIPAL ALUMNO*/
+.principalEst{
+	float:left;
+	width:72%;
+	min-height:300px;
+	text-align:center;
+	margin:20px auto;
+}
+
+
+
