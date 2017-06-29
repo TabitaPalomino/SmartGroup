@@ -1,15 +1,15 @@
-﻿/*pagina principal*/
-body{
+﻿body{
 	font-family:Arial;
 	background-image:url(http://www.grupouniversitario.cl/archivos/servicio_4/archivo_8153297383.jpg);
 	background-size:100% 100%;
 	background-repeat:no-repeat;
-	margin-top:0px;
 }
 body *{
 	margin:5px;
 }
-
+body{
+	margin-top:0px;
+}
 h1{
     font-size: 40px;
     padding-left: 25px;
@@ -24,317 +24,276 @@ h1{
 	min-height:500px;
 }
 /*cabecera*/
-	#pcl_cabecera{
-		min-height:150px;
-		background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
-		background-size:100%;
-	}
-	/*logo*/
-		#logo{
-			float:left;
-			width:35%;
-		}
-		#logo img{
-			width:340px;	
-			margin:20px auto;
-		}
-	/*logo*/
-	/*regisro*/
-		#registro{
-			float:right;
-			width:29%;
-			margin-top:25px;
-		}
-		#registro .reg{
-			font-size:17px;
-			float:right;
-			margin-top:2px;
-			margin-right:10px;	
-		}
-		.reg img{
-			width: 15px;
-			margin-bottom:0px;
-		}
-		#redes{
-			width:80%;
-		}
-		.redes{
-			float:right;
-			margin-top:0px;
-		}
-		.redes img{
-			width: 35px;
-			border-radius:4px;			
-		}
-	/*regisro*/
-	/*busqueda*/	
-		#busqueda{
-			padding-top:58px;
-			margin-left:35%;
-			margin-right:35%;
-			background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
-			background-repeat: no-repeat;			
-			background-size: 200px;
-			background-position:80px;
-			text-align: right;
-			height:80px;
-		}	
-		#buscar{
-			padding-top:25px;
-		}
-		#pchdtext{
-			width:67%;
-		}
-	/*busqueda*/
-/*cabecera*/
-/*navegacion*/
-	a{
+#pcl_cabecera{
+	min-height:150px;
+	background-image:url(http://fscu.helen.cl/web_ulagos/images/fondo.jpg);
+	background-size:100%;
+}
+/*logo*/
+#logo{
+	float:left;
+	width:35%;
+}
+#logo img{
+	width:340px;	
+	margin:20px auto;
+}
+
+/*regisro*/
+#registro{
+	float:right;
+	width:29%;
+	margin-top:25px;
+}
+#registro .reg{
+	font-size:17px;
+	float:right;
+	margin-top:2px;
+	margin-right:10px;	
+}
+.reg img{
+	width: 15px;
+	margin-bottom:0px;
+}
+#redes{
+	width:80%;
+}
+.redes{
+	float:right;
+	margin-top:0px;
+}
+.redes img{
+	width: 35px;
+	border-radius:4px;			
+}
+
+/*BUSQUEDA*/	
+#busqueda{
+	padding-top:58px;
+	margin-left:35%;
+	margin-right:35%;
+	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
+	background-repeat: no-repeat;			
+	background-size: 200px;
+	background-position:80px;
+	text-align: right;
+	height:80px;
+}
+#buscar{
+	padding-top:25px;
+}
+#pchdtext{
+	width:67%;
+}
+
+/*NAVEGACIÓN*/
+a{
 	text-decoration:none;
-	}
-	#pcl_navegacion{
-		border-radius:5px;
-		background-color: #047ECE;
-		padding: 5px 0px;
-		margin:0px;
-	}
-	#pcl_navegacion ul{
-		text-align:center;
-		padding:2px;
-		margin:0px;
-	}
-	#pcl_navegacion ul li{
-		display:inline-block;
-		margin:0px 50px;
-	}
-	#pcl_navegacion ul li a{
-		font-size:20px;
-		color:#fff;
-		margin:0px 0px 2px 1px;
-	}	
-	#pcl_navegacion ul li img{
-		margin:2px 2px 0px 0px;
-		width:18px;
-	}
-/*navegacion*/
-/*anuncio general*/
-	#pcl_anuncios{
-		text-align:center;
-	}
-	#pcl_anuncios img{
-		border-radius:4px;
-		width:972px;
-		margin:10px auto;
-	}
-/*anuncio general*/
-/*cuerpo principal*/
-	#pcl_cuerpo{
-		float:left;
-		width:72%;
-		min-height:300px;
-	}	
-	#pcl_principal {
-		margin-left:28px;
-		min-height:240px;
-	}
-	/*talleres*/
-		#pcl_talleres{
-			border:1px solid black;
-			border-radius:5px;
-		}
-		#pcl_talleres a{
-			color:#fff;
-		}
-		#pcl_talleres ul{
-			padding-left:10px;
-		}
-		.tl_s{
-			min-height:200px;
-			float:left;
-			width:31%;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.tl_titu{
-			min-height:50px;
-			background-color:#2A57EF;
-			border-radius:5px;
-			border:1px solid black;
-			border-radius:5px;
-			color:#fff;
-		}
-		.tl_artc{
-			min-height:80px;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.tl_ft{
-			border:1px solid black;
-			border-radius:5px;
-			background-color:#2A57EF;
-		}
-		#tl_ftlink{
-			clear:both;
-			border:1px solid black;
-			border-radius:5px;
-			text-align:center;
-			background-color:#2A57EF;
-		}
-	/*talleres*/
-	/*asesorias*/
-		#pcl_asesorias {
-			border:1px solid black;
-			border-radius:5px;
-			margin-top:10px;
-		}
-		#pcl_asesorias a{
-			color:#fff;
-		}
-		#pcl_asesorias ul{
-			padding-left:10px;
-		}
-		.as_s{
-			min-height:200px;
-			float:left;
-			width:31%;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.as_titu{
-			min-height:50px;
-			background-color:#2A57EF;
-			border-radius:5px;
-			border:1px solid black;
-			border-radius:5px;
-			color:#fff;
-		}
-		.as_artc{
-			min-height:80px;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.as_ft{
-			border:1px solid black;
-			border-radius:5px;
-			background-color:#2A57EF;
-		}
-		#as_ftlink{
-			clear:both;
-			border:1px solid black;
-			border-radius:5px;
-			text-align:center;
-			background-color:#2A57EF;
-		}
-	/*asesorias*/
-	/*lugares*/
-		#pcl_lugares {
-			border:1px solid black;
-			border-radius:5px;
-			margin-top:10px;	
-		}
-		#pcl_lugares a{
-			color:#fff;
-		}
-		#pcl_lugares ul{
-			padding-left:10px;
-		}
-		.pcl_s{
-			min-height:200px;
-			float:left;
-			width:31%;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.pcl_titu{
-			min-height:50px;
-			background-color:#2A57EF;
-			border-radius:5px;
-			border:1px solid black;
-			border-radius:5px;
-			color:#fff;
-		}
-		.pcl_artc{
-			min-height:80px;
-			border:1px solid black;
-			border-radius:5px;
-		}
-		.pcl_ft{
-			border:1px solid black;
-			border-radius:5px;
-			background-color:#2A57EF;
-		}
-		#pcl_ftlink{
-			clear:both;
-			border:1px solid black;
-			border-radius:5px;
-			text-align:center;
-			background-color:#2A57EF;
-		}
-	/*lugares*/
-/*cuerpo principal*/
-/*publicidad lateral*/
-	#pcl_lateral{
-		margin: 0px 30px 0px 71%;
-		min-height:490px;
-		border-radius:5px;
-		text-align:center;
-		padding-top:10px;
-		padding-bottom:10px;
-	}
-	#pcl_lateral img{
-		width:200px;
-		height:200px;
-		padding: 0px 10px 0px 15px;
-	}
-	#pc1_lateral div{
-		text-align:center;
-	}
-/*pie de pagina*/
-	#f1{
-		clear:both;
-		min-height:280px;
-		background-image:url(../IMAGENES/lapiz.png);
-		background-size:100% 100%;
-		margin:0px;
-	}	
-	#fsleft{
-		margin-top:0px;
-		margin-left:33%;
-		float:left;
-		width:21%;
-		margin-bottom:0px;
-	}
-	#fsright{
-		float:left;
-		width:30%;
-		margin-top:0px;
-	}
-	.fs li{
-		color: #0000FF;
-		list-style:none;
-		padding: 10px;
-		text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-		font-size: 14px;
-	}
-	#f2 {
-		padding:20px;
-		background-color:#0e1a46;
-		text-align:center;
-		margin:0px;
-		color:#FFFFFF;
-	}	
-	.fim{
-		width:30px;
-		margin-bottom:0px;
-	}
-	.footerg{
-		text-align:center;
-		color:#FFFFFF;
-	}
-/*pie de pagina*/
-/*pagina principal*/	
+}
+#pcl_navegacion{
+	background-color: #047ECE;
+	padding: 5px 0px;
+	margin:0px;
+}
+#pcl_navegacion ul{
+	text-align:center;
+	padding:2px;
+	margin:0px;
+}
+#pcl_navegacion ul li{
+	display:inline-block;
+	margin:0px 50px;
+}
+#pcl_navegacion ul li a{
+	font-size:20px;
+	color:#fff;
+	margin:0px 0px 2px 1px;
+}	
+#pcl_navegacion ul li img{
+	margin:2px 2px 0px 0px;
+	width:18px;
+}
+
+/*ANUNCIO GENERAL*/
+#pcl_anuncios{
+	text-align:center;
+}
+#pcl_anuncios img{
+	border-radius:4px;
+	width:100%;
+	margin:10px auto;
+}
+
+/*CUERPO*/
+#pcl_cuerpo{
+	float:left;
+	width:72%;
+	min-height:300px;
+}
 	
+#pcl_principal {
+	margin-left:28px;
+	min-height:240px;
+}
+
 	
+/* MAQUETACIÓN TALLERES*/
+#pcl_talleres{
+	border-radius:5px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#pcl_talleres a{
+	color:blue;
+}
+#pcl_talleres ul{
+	padding-left:10px;
+}
+.tl_s{
+	min-height:200px;
+	float:left;
+	width:31%;
+}
+.tl_titu{
+	min-height:50px;
+}
+.tl_artc{
+	min-height:80px;
+}
+.tl_ft{
+}
+#tl_ftlink{
+	clear:both;
+}
+
+/*MAQUETACIÓN ASESORIAS*/
+#pcl_asesorias {
+	border:1px solid black;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+#pcl_asesorias a{
+	color:blue;
+}
+#pcl_asesorias ul{
+	padding-left:10px;
+}
+.as_s{
+border:1px solid blue;
+	min-height:200px;
+	float:left;
+	width:31%;
+}
+.as_titu{
+	border:1px solid blue;
+	min-height:50px;
+}
+.as_artc{
+	border:1px solid blue;
+	min-height:80px;
+}
+.as_ft{
+	border:1px solid blue;	
+}
+#as_ftlink{
+	clear:both;
+	border:1px solid blue;
+}
+		
+/*MAQUETACIÓN CURSOS*/
+#pcl_lugares{
+	border:1px solid black;
+	border-radius:5px;
+}
+#pcl_lugares a{
+	color:blue;
+}
+#pcl_lugares ul{
+	padding-left:10px;
+}
+.cs_s{
+	min-height:200px;
+	float:left;
+	width:31%;
+	}
+.cs_titu{
+	min-height:50px;
+}
+.cs_artc{
+	min-height:80px;
+}
+
+#cs_ftlink{
+	clear:both;
+}
+
+/*PUBLICIDAD LATERAL*/
+#pcl_lateral{
+	margin: 0px 30px 0px 71%;
+	min-height:490px;
+	border-radius:5px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#pcl_lateral img{
+	width:200px;
+	height:200px;
+	padding: 0px 10px 0px 15px;
+}
+#pc1_lateral div{
+	text-align:center;
+}
+
+/*PIE DE PAGINA*/
+#f1{
+	clear:both;
+	min-height:280px;
+	background-image:url(../IMAGENES/lapiz.png);
+	background-size:100% 100%;
+	margin:0px;
+}
 	
+#fsleft{
+	margin-top:0px;
+	margin-left:33%;
+	float:left;
+	width:21%;
+	margin-bottom:0px;
+}
+#fsright{
+	float:left;
+	width:30%;
+	margin-top:0px;
+}
+	
+.fs li{
+	color: #0000FF;
+	list-style:none;
+	padding: 10px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 14px;
+}
+#f2 {
+	padding:20px;
+	background-color:#0e1a46;
+	text-align:center;
+	margin:0px;
+	color:#FFFFFF;
+}
+	
+.fim{
+	width:30px;
+	margin-bottom:0px;
+}
+	
+.footerg{
+	text-align:center;
+	color:#FFFFFF;
+}
+
 /*INICIAR SESION*/
 #logoIS{
 	width:85%;
