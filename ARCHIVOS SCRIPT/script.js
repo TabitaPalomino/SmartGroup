@@ -1,5 +1,5 @@
 //Eventos pagina principal
-var Intervalo=4000; 
+var Intervalo=10000; 
 var Imagenes=new Array; 
 var IDImagen=0; 
 
