@@ -20,7 +20,7 @@ h1{
 #pcl_contenedor{
 	width:80%;
 	margin:0px auto;
-	padding-top:185px;
+	padding-top:160px;
 	background-color:white;
 	box-shadow: 0px 0px 30px #090909;
 	min-height:500px;
@@ -42,7 +42,7 @@ h1{
 }
 #logo img{
 	width:340px;	
-	margin:20px auto;
+	margin:10px auto;
 }
 
 /*regisro*/
@@ -82,18 +82,19 @@ h1{
 
 /*BUSQUEDA*/	
 #busqueda{
-	padding-top:58px;
+	padding-top:60px;
 	margin-left:34%;
 	margin-right:33%;
+	margin-bottom:10px;
 	background-image: url("https://userscontent2.emaze.com/images/93e2d219-948d-4f5b-bddd-b58637d71498/8225bc27dd2f5958ef0894797fb270cd.png");
 	background-repeat: no-repeat;			
-	background-size: 200px;
-	background-position:30px;
+	background-size: 190px;
+	background-position:50px;
 	text-align: right;
-	height:80px;
+	height:50px;
 }
 #buscar{
-	padding-top:25px;
+	padding-top:8px;
 }
 #pchdtext{
 	width:67%;
@@ -105,8 +106,9 @@ a{
 }
 #pcl_navegacion{
 	background-color: #047ECE;
-	padding: 5px 0px;
+	padding: 3px 0px;
 	margin:0px;
+	min-height:20px;
 }
 #pcl_navegacion ul{
 	text-align:center;
@@ -115,7 +117,7 @@ a{
 }
 #pcl_navegacion ul li{
 	display:inline-block;
-	margin:0px 50px;
+	margin:0px 80px;
 }
 #pcl_navegacion ul li a{
 	font-size:20px;
@@ -617,8 +619,7 @@ border:1px solid blue;
 	text-align:center;
 	margin-left:50%;
 }
-		
-/*******************************************/
+
 #tituloConfirmarC{
 	text-align:center;
 	padding-bottom:30px;
@@ -678,7 +679,7 @@ border:1px solid blue;
 /*TERMINA OLVIDE CONTRASEÑA*/
 
 
-/* --------------Confirmar Recuperacion de Contraseña---------- */
+/*Confirmar Recuperacion de Contraseña*/
 #seccionRecuperarCuenta{
 	border:1px solid black;
 	margin: 0;
@@ -706,9 +707,7 @@ border:1px solid blue;
     margin:102px auto 102px auto;
 	border-radius: 6px;
 	background-color:#F4F5F5;
-}
-
-/******************************************/		
+}		
 
 /*PERFIL ESTUDIANTE*/
 .perfilEstudiante{
@@ -723,10 +722,11 @@ border:1px solid blue;
 .fotoEstudiante > img{
 	display:block;
 	margin:0px;
+	border-radius:6px;
 }
 .nombreEstudiante{
 	text-transform:uppercase;
-	text-align:center;
+	text-align:left;
 	height:100px;
 	padding:10px auto;
 	text-align:center;
@@ -752,20 +752,14 @@ border:1px solid blue;
     text-align: center;
     padding: 2px 0 20px 0;
     min-height: 250px; 
-    width: 450px;
-    margin:10px auto 5px auto;
+    width: 440px;
+    margin:0px auto;
 	border-radius: 6px;
 	background-color:#F4F5F5;
-	margin-top:42px;
 }
 #contacdiv{
 	text-align:center;
 }
-#logoCON{
-	width:85%;
-	margin:25px auto 10px auto;
-}
-
 #contacp{
     color:#262626;
 	font-weight:bold;
@@ -784,3 +778,6 @@ border:1px solid blue;
     color: #111;
 }
 
+/*LEER MAS*/
+.hide {display:none}
+.show {display:inline}

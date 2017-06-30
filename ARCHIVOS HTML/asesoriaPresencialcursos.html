@@ -6,15 +6,33 @@
         <link href="../ARCHIVOS CSS/estilo.css" rel="stylesheet" />
 		<script src="../ARCHIVOS SCRIPT/script.js"></script>
     </head>
-    <body>		
-        <div id="pcl_contenedor">
-			<header id="pcl_cabecera">
+    <body>	
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="contactenos"> 
+				<section id="contacdiv">
+					<section id="centroI"><img id="logoIS" src="../IMAGENES/logoSG.png"/></section>
+					<h2 id="contacp">CONTACTATE CON NOSOTROS</h2>
+						<p>Ingrese su correo electronico, para enviarle la respuesta:</p>
+						<section>
+						<input class="correo" type="text" placeholder="Correo Electronico" size="50"/>
+						</section>
+						<p id="dudas">Si tienes alguna consulta no tengas miedo en preguntar:</p>
+						<section>
+						<input class="area" type="text" placeholder="Escribe aqui tu consulta..." size="200" />
+						</section>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro" onclick="alert('Mensaje enviado')"><a href="PaginaPEstudiante.html">Enviar</a></button></a>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="PaginaPEstudiante.html">Cancelar</a></button></a>
+				</section>
+			</section>
+			</div>
+		<header id="pcl_cabecera">
 				<div id="logo">
 					<img id="logo" src="../IMAGENES/logoSG.png"/>
 				</div>
 				<div class="perfilEstudiante">
 					<section class="nombreEstudiante">
-						<h3>Lisa Gherardini</h3>
+						<h4>Lisa</h4><h4>Gherardini</h4>
 						<a href=""><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
 						<a href="PaginaPrincipal.html"><img width="35" src="../IMAGENES/cerrarS.png"/></a>
 					</section>
@@ -28,17 +46,17 @@
 						<input id="btnbuscar" type="button" value="buscar"/>
 					</form>
 				</div>
-				
 				<nav id="pcl_navegacion">
 					<ul>
 					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPEstudiante.html">Inicio</a></li>
 					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="AsesoriaPresencialcursos.html">Asesorias</a></li>
 					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="Talleres.html">Talleres</a></li>
-					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Contactenos</a></li>
 					</ul>
 				</nav>
 			</header>
-        
+			
+        <div id="pcl_contenedor">
 			<section id="principal">
 				<h2>ASESORIAS PRESENCIALES DISPONIBLES</h2>
 			<section id="pcl_principal">

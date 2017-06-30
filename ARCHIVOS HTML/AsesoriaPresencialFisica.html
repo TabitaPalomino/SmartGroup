@@ -2,24 +2,23 @@
 <html>
 	<head>
 		<title>Smart Group</title>
-		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
+		<link rel="shortcut icon" href="../IMAGENES/Icono.png"/>
+        <link href="../ARCHIVOS CSS/estilo.css" rel="stylesheet" />
+		<script src="../ARCHIVOS SCRIPT/script.js"></script>
 	</head>
-	<body>
-		<div id="pcl_contenedor">
-			<header id="pcl_cabecera">
+	<header id="pcl_cabecera">
 				<div id="logo">
 					<img id="logo" src="../IMAGENES/logoSG.png"/>
 				</div>
-				<div id="registro">
-					<a class="reg" href="IniciarSesion.html">Iniciar Sesion<img src="../IMAGENES/iconoIniciarSesion.png"/></a></li>
-					<a class="reg" href="Registro.html">Registrarse<img src="../IMAGENES/iconoRegistrarse.png"/></a></li>
-					
-					<br/><br/>
-						<div id="redes">
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconofb.jpg"/></a>	
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconotw.png"/> </a>
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconoytb.png"/> </a>
-						</div>
+				<div class="perfilEstudiante">
+					<section class="nombreEstudiante">
+						<h4>Lisa</h4><h4>Gherardini</h4>
+						<a href=""><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
+						<a href="PaginaPrincipal.html"><img width="35" src="../IMAGENES/cerrarS.png"/></a>
+					</section>
+					<section class="fotoEstudiante">
+						<img width="145" src="../IMAGENES/fotoPerfil.jpg" />
+					</section>
 				</div>	
 				<div id="busqueda">
 					<form id="buscar">
@@ -27,17 +26,17 @@
 						<input id="btnbuscar" type="button" value="buscar"/>
 					</form>
 				</div>
-				
 				<nav id="pcl_navegacion">
 					<ul>
-					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPrincipal.html">Inicio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Sitios de estudio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Talleres</a></li>
-					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="">Asesorias</a></li>
-					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPEstudiante.html">Inicio</a></li>
+					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="AsesoriaPresencialcursos.html">Asesorias</a></li>
+					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="Talleres.html">Talleres</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Contactenos</a></li>
 					</ul>
 				</nav>
 			</header>
+	<body>
+		<div id="pcl_contenedor">
 			<section id="pcl_cuerpo">
 				<section id="pcl_principal">
 							

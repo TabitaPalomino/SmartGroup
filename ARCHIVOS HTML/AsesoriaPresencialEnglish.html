@@ -5,21 +5,38 @@
 		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
 	</head>
 	<body>
-		<div id="pcl_contenedor">
-			<header id="pcl_cabecera">
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="contactenos"> 
+				<section id="contacdiv">
+					<section id="centroI"><img id="logoIS" src="../IMAGENES/logoSG.png"/></section>
+					<h2 id="contacp">CONTACTATE CON NOSOTROS</h2>
+						<p>Ingrese su correo electronico, para enviarle la respuesta:</p>
+						<section>
+						<input class="correo" type="text" placeholder="Correo Electronico" size="50"/>
+						</section>
+						<p id="dudas">Si tienes alguna consulta no tengas miedo en preguntar:</p>
+						<section>
+						<input class="area" type="text" placeholder="Escribe aqui tu consulta..." size="200" />
+						</section>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro" onclick="alert('Mensaje enviado')"><a href="PaginaPEstudiante.html">Enviar</a></button></a>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="PaginaPEstudiante.html">Cancelar</a></button></a>
+				</section>
+			</section>
+			</div>
+		<header id="pcl_cabecera">
 				<div id="logo">
 					<img id="logo" src="../IMAGENES/logoSG.png"/>
 				</div>
-				<div id="registro">
-					<a class="reg" href="IniciarSesion.html">Iniciar Sesion<img src="../IMAGENES/iconoIniciarSesion.png"/></a></li>
-					<a class="reg" href="Registro.html">Registrarse<img src="../IMAGENES/iconoRegistrarse.png"/></a></li>
-					
-					<br/><br/>
-						<div id="redes">
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconofb.jpg"/></a>	
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconotw.png"/> </a>
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconoytb.png"/> </a>
-						</div>
+				<div class="perfilEstudiante">
+					<section class="nombreEstudiante">
+						<h4>Lisa</h4><h4>Gherardini</h4>
+						<a href=""><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
+						<a href="PaginaPrincipal.html"><img width="35" src="../IMAGENES/cerrarS.png"/></a>
+					</section>
+					<section class="fotoEstudiante">
+						<img width="145" src="../IMAGENES/fotoPerfil.jpg" />
+					</section>
 				</div>	
 				<div id="busqueda">
 					<form id="buscar">
@@ -27,22 +44,16 @@
 						<input id="btnbuscar" type="button" value="buscar"/>
 					</form>
 				</div>
-				
 				<nav id="pcl_navegacion">
 					<ul>
-					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPrincipal.html">Inicio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Sitios de estudio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Talleres</a></li>
-					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="">Asesorias</a></li>
-					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPEstudiante.html">Inicio</a></li>
+					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="AsesoriaPresencialcursos.html">Asesorias</a></li>
+					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="Talleres.html">Talleres</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Contactenos</a></li>
 					</ul>
 				</nav>
 			</header>
-			<section id="pcl_cuerpo">
-				<section id="pcl_principal">
-							
-				</section>
-			</section>
+		<div id="pcl_contenedor">
 			<aside id="pcl_lateral">
 				<h3>Tambien te puede interesar...</h3>
 					<div>
@@ -52,6 +63,11 @@
 					</div>
 			</aside>
 			
+			<section id="principal">
+			<section id="pcl_principal">
+			asasa
+			</section>
+			</section>
 			<footer id="f1">
 					<section class="fs" id="fsleft">
 						<h3><img class="fim" src="../IMAGENES/iconoMiCuenta.png" />Micuenta</h3>

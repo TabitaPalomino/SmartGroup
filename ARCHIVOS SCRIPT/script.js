@@ -16,7 +16,14 @@ function CambiarImagen(){
 	} 
 }
 
-//Mensaje de bienvenida
-function OpenVentana(){
-	$('.ventana').slideDown("slow");
+//Leer mas
+function hideshow (postid) {
+var post = document.getElementById(postid);
+if (post.className=="show"){
+post.className="hide";
+} else {
+post.className="show";
 }
+}
+
+
