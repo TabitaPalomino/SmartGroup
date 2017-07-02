@@ -597,39 +597,56 @@ border:1px solid blue;
 }
 
 /*ASESORIA presencial de calculo de una variable*/
-.gruposD{
-	border:1px solid black;
-}	
-.izquierda{
-	float: left;
-	margin:30px;
-	width:250px;
-	min-height:300px;
-	background-color: #A8B3E1;
-	border:1px solid red;
-}
 #uno{
 	width:65%;
 	float:left;
 	margin-left:30px;
 }
 
+#uno img{
+	border-radius:5px;
+	margin-left:50px;
+	width:170px;
+	height:100px;
+}
+#botonNG{
+	text-align:center;
+}
+.gruposD{
+	border:1px solid black;
+}	
+.izquierda{
+	float: left;
+	margin:30px;
+	width:280px;
+	min-height:300px;
+	background-color: #45A8E8;
+	color:white;
+	font-weight:bold;
+}
+
 .derecha{
-	margin:5%;
-	width:250px;
+	margin:30px;
+	width:280px;
 	float:right;
 	min-height:300px;
-	background-color: #A8B3E1;
-	border:1px solid blue;
+	background-color: #A3E11E;
+	color:black;
+	font-weight:bold;
 }
-		
-#unirse{
+.unirmeG{
+	color:#FFFFFF;
+}	
+.unirse{
 	text-align:center;
-	margin-left:35% ;
-	min-height: 45px;
+	margin-left:31% ;
+	min-height: 27px;
 	width: 100px;
-	background-color: #5B6BB2;
+	background-color:black;
 	font-size: 20px;
+	text-transform:uppercase;
+	padding:3px;
+	border-radius:6px;
 }
 
 #tituloConfirmarC{
@@ -778,6 +795,17 @@ border:1px solid blue;
 	padding:5px 10px;
 }
 
+/*NUEVO CURSO*/
+#ContP2{
+	text-align:left;
+	padding:5px 10px 5px 30px;;
+}
+#ContaP2{
+    color:#262626;
+	font-weight:bold;
+	padding:5px 10px;
+	text-align:center;
+}
 /*CONTACTENOS*/
 #contactenos{
 	box-shadow: 5px 0px 5px #090909;
