@@ -1,13 +1,32 @@
 <!Doctype html>
 <html>
 	<head>
-		<title>Smart Group-Nosotros</title>
+		<title>Smart Group-Quienes somos</title>
 		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
 		<link rel="shortcut icon" href="../IMAGENES/Icono.png"/>
 		<link rel="stylesheet" href="../ARCHIVOS CSS/estilo.css" type="text/css"/>
 		<script src="../ARCHIVOS SCRIPT/script.js"></script>
 	</head>
 	<body>
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="contactenos"> 
+				<section id="contacdiv">
+					<section id="centroI"><img id="logoIS" src="../IMAGENES/logoSG.png"/></section>
+					<h2 id="contacp">CONTACTATE CON NOSOTROS</h2>
+						<p>Ingrese su correo electronico, para enviarle la respuesta:</p>
+						<section>
+						<input class="correo" type="text" placeholder="Correo Electronico" size="50"/>
+						</section>
+						<p id="dudas">Si tienes alguna consulta no tengas miedo en preguntar:</p>
+						<section>
+						<input class="area" type="text" placeholder="Escribe aqui tu consulta..." size="200" />
+						</section>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro" onclick="alert('Mensaje enviado')"><a href="QuienesSomos.html">Enviar</a></button></a>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="QuienesSomos.html">Cancelar</a></button></a>
+				</section>
+			</section>
+			</div>
 		<header id="pcl_cabecera">
 				<div id="logo">
 					<img id="logo" src="../IMAGENES/logoSG.png"/>
@@ -33,11 +52,11 @@
 				<nav id="pcl_navegacion">
 					<ul>
 					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPrincipal.html">Inicio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="Nosotros.html">Quienes Somos</a></li>
-					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="QuienesSomos.html">Quienes somos</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Contactenos</a></li>
 					</ul>
 				</nav>
-		</header>
+			</header>
 		<div id="pcl_contenedor">	
 			<br/>
 			<section id="pcl_cuerpo" >
@@ -88,23 +107,14 @@
 			<section id ="linea"></section>
 			<footer id="f1">
 					<section class="fs" id="fsleft">
-						<h3><img class="fim" src="../IMAGENES/iconoMiCuenta.png" />Micuenta</h3>
-						<ul>
-							<li><a href="">Mis asesorias</a></li>
-							<li><a href="">Mis calendarios</a></li>
-							<li><a href="">Configuracion</a></li>
-						</ul>
-					</section>
-					<section class="fs" id="fsright">
 						<h3><img class="fim" src="../IMAGENES/iconoNosotros.png" />Nosotros</h3>
 						<ul>
 							<li><a href="">Informacion como empresa</a></li>
 							<li><a href="">Promociones</a></li>
 							<li><a href="">Te ayudamos</a></li>
-							<li><a href="">Politicas de la empresa</a></li>
 						</ul>
 					</section>
-					
+					<section id="let" >-Todos los derechos reservados-</section>
 			</footer>
 			<footer id="f2">
 				&copy SmartGroup 2017

@@ -7,21 +7,39 @@
 	</head>
 	
 	<body>
-		<div id="pcl_contenedor">
-			<header id="pcl_cabecera">
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="contactenos"> 
+				<section id="contacdiv">
+					<section id="centroI"><img id="logoIS" src="../IMAGENES/logoSG.png"/></section>
+					<h2 id="contacp">CONTACTATE CON NOSOTROS</h2>
+						<p>Ingrese su correo electronico, para enviarle la respuesta:</p>
+						<section>
+						<input class="correo" type="text" placeholder="Correo Electronico" size="50"/>
+						</section>
+						<p id="dudas">Si tienes alguna consulta no tengas miedo en preguntar:</p>
+						<section>
+						<input class="area" type="text" placeholder="Escribe aqui tu consulta..." size="200" />
+						</section>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro" onclick="alert('Mensaje enviado')"><a href="AsesoriaPresencialCv.html">Enviar</a></button></a>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="AsesoriaPresencialCv.html">Cancelar</a></button></a>
+				</section>
+			</section>
+			</div>
+			
+		<header id="pcl_cabecera">
 				<div id="logo">
 					<img id="logo" src="../IMAGENES/logoSG.png"/>
 				</div>
-				<div id="registro">
-					<a class="reg" href="IniciarSesion.html">Iniciar Sesion<img src="../IMAGENES/iconoIniciarSesion.png"/></a></li>
-					<a class="reg" href="Registro.html">Registrarse<img src="../IMAGENES/iconoRegistrarse.png"/></a></li>
-					
-					<br/><br/>
-						<div id="redes">
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconofb.jpg"/></a>	
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconotw.png"/> </a>
-						<a class="redes" href="" target="_black"><img src="../IMAGENES/iconoytb.png"/> </a>
-						</div>
+				<div class="perfilEstudiante">
+					<section class="nombreEstudiante">
+						<h4>Lisa</h4><h4>Gherardini</h4>
+						<a href="EditarPerfil.html" ><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
+						<a href="PaginaPrincipal.html"><img width="35" src="../IMAGENES/cerrarS.png"/></a>
+					</section>
+					<section class="fotoEstudiante">
+						<img width="145" src="../IMAGENES/fotoPerfil.jpg" />
+					</section>
 				</div>	
 				<div id="busqueda">
 					<form id="buscar">
@@ -31,26 +49,24 @@
 				</div>
 				<nav id="pcl_navegacion">
 					<ul>
-					<li><img src="../IMAGENES/iconoInicio.png"/><a href="">Inicio</a></li>
-					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="">Cursos</a></li>
-					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="">Asesorias</a></li>
-					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="">Contactenos</a></li>
+					<li><img src="../IMAGENES/iconoInicio.png"/><a href="PaginaPEstudiante.html">Inicio</a></li>
+					<li><img src="../IMAGENES/iconoAsesoria.png"/><a href="AsesoriaPresencialcursos.html">Asesorias</a></li>
+					<li><img src="../IMAGENES/iconoCursos.png"/> <a href="Talleres.html">Talleres</a></li>
+					<li><img src="../IMAGENES/iconoContactenos.png"/><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Contactenos</a></li>
 					</ul>
 				</nav>
 			</header>
-		
-				<h1 style="color: #1D3186;margin-left: 10px;">Asesorias Presenciales</h1>
-				<br/>
-				<h2 style="color: #1D3186;margin-left:50px;" >Grupo Disponibles en Calculo I</h2>
-				<br/>
-				<p style="margin-left:50px; margin-right: 400px;" > Estos son los cursos disponibles hasta el momento en el curso elegido, elija el grupo con los datos que mejor se acomoden a su disposicion. Luego solicitar su asesoria haciendo click en el boton y confimar</p>
-				
+		<div id="pcl_contenedor">
 		<section id="uno" >
-		
-		<button class="izquierda">
+				<br/>
+				<h2 style="color: #1D3186;margin-left:50px;" >Grupo Disponibles en Calculo de una variable</h2>
+				<br/>
+				<p> Estos son los cursos disponibles hasta el momento. Elija el grupo con los datos que mejor se acomoden a su disposicion. Si no hay un grupo, puede solicitar uno nuevo:</p>
+				
+		<section class="izquierda">
 			<div id="img1">
 				<img src="../IMAGENES/grupocv1.jpg"  width="200"/>
-			<div>
+			</div>
 			<div id="grupo1">
 				
 				<p>
@@ -61,13 +77,11 @@
 				<br/> Cupos: 7
 				</p>
 			</div>
-		</button>
-			
-		<button class="derecha">
-		
+		</section>
+		<section class="derecha">
 			<div id="img2">
-				<img src="../IMAGENES/grupocv2.jpg" width="200"/>
-			<div>
+				<img src="../IMAGENES/grupocv2.jpg" width="190"/>
+			</div>
 			<div id="grupo2">
 				<p>Grupo 2: 
 				<br/> Asesor: Ramiro Sanchez Rojas
@@ -75,12 +89,8 @@
 				<br/> Hora: 11:00 am
 				<br/> Cupos: 10</p>
 			</div>
-			
-		</button>
-		
-		
-		
-		<button class="izquierda">	
+		</section>
+		<div class="izquierda">	
 		
 			<div id="img3">
 				<img src="../IMAGENES/grupocv3.jpg" width="200" />
@@ -92,9 +102,8 @@
 				<br/> Hora: 11:00 am
 				<br/> Cupos: 10</p>
 			</div>
-		
-		</button>
-		<button class="derecha">		
+		</div>
+		<div class="derecha">		
 		
 			<div id="img4">
 				<img src="../IMAGENES/grupocv4.png" width="200"/>
@@ -106,22 +115,22 @@
 				<br/> Hora: 12:30 pm
 				<br/> Cupos: 12 </p>
 			</div>
-		
-		</button>
+		</div>
 		<br/>
+		
 		<div style="width: 330px; margin: 0 auto;">
-		<INPUT id="unirse" TYPE="button" VALUE="Unirme" onClick="newPage('AceptarAsesoria.jsp')">
+		<input width="100" id="unirse" TYPE="button" VALUE="Solicitar un nuevo grupo" onClick="newPage('AceptarAsesoria.jsp')">
 		</div>
 		</section>
 		
 		<aside id="pcl_lateral">
 				<h3>Tambien te puede interesar...</h3>
 					<div>
-						<a href=""><img src="../IMAGENES/publicidadPrincipal3.gif"/></a><br/>
+						<a href=""><img src="../IMAGENES/publicidadPrincipal1.gif"/></a><br/>
 						<a href=""><img src="../IMAGENES/publicidadPrincipal2.gif"/></a></br>
-						<a href=""><img src="../IMAGENES/Publicidad.gif"/></a>
+						<a href=""><img src="../IMAGENES/publicidadPrincipal3.gif"/></a>
 					</div>
-			</aside>
+		</aside>
 		<section id ="linea"></section>	
 		<footer id="f1">
 					<section class="fs" id="fsleft">
@@ -129,25 +138,24 @@
 						
 						<ul>
 							Tienes a tu disposicion
-							<li><a href="">Asesorias</a></li>
-							<li><a href="">Talleres</a></li>
+							<li><a href="AsesoriaPresencialcursos.html">Asesorias</a></li>
+							<li><a href="Talleres.html">Talleres</a></li>
 						</ul>
 					</section>
 					<section class="fs" id="fsright">
 						<h3><img class="fim" src="../IMAGENES/iconoNosotros.png" />Nosotros</h3>
 						<ul>
-							<li><a href="">Informacion como empresa</a></li>
-							<li><a href="">Promociones</a></li>
-							<li><a href="">Te ayudamos</a></li>
+							<li><a href="QuienesSomos.html">Informacion como empresa</a></li>
+							<li><a href="QuienesSomos.html">Promociones</a></li>
+							<li><a href="javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">Te ayudamos</a></li>
 							
 						</ul>
 					</section>
 					<section id="let" >-Todos los derechos reservados-</section>
 			</footer>
-		<footer id="f2">
+			<footer id="f2">
 				&copy SmartGroup 2017
 			</footer>
 		</div>
-		
 	</body>
 </html>

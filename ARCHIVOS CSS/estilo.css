@@ -596,19 +596,17 @@ border:1px solid blue;
     width: 350px;
 }
 
-/*ASESORIA presencial de calculo de varias*/
-/*#grupo1, #grupo2, #grupo3, #grupo4, #grupo5{
-	float: left;
-	padding-left:15px;
-	text-align: justify;
-}*/
-		
+/*ASESORIA presencial de calculo de una variable*/
+.gruposD{
+	border:1px solid black;
+}	
 .izquierda{
 	float: left;
 	margin:30px;
 	width:250px;
 	min-height:300px;
 	background-color: #A8B3E1;
+	border:1px solid red;
 }
 #uno{
 	width:65%;
@@ -619,8 +617,10 @@ border:1px solid blue;
 .derecha{
 	margin:5%;
 	width:250px;
+	float:right;
 	min-height:300px;
 	background-color: #A8B3E1;
+	border:1px solid blue;
 }
 		
 #unirse{
@@ -778,9 +778,6 @@ border:1px solid blue;
 	padding:5px 10px;
 }
 
-
-
-/*	///////////////////////*/
 /*CONTACTENOS*/
 #contactenos{
 	box-shadow: 5px 0px 5px #090909;
@@ -814,11 +811,10 @@ border:1px solid blue;
     color: #111;
 }
 
-<<<<<<< HEAD
 /*LEER MAS*/
 .hide {display:none}
 .show {display:inline}
-=======
+
 /*QUIENES SOMOS*/
 
 .nos_imagen{
@@ -845,4 +841,3 @@ border:1px solid blue;
 	border:1px solid #6495ED;
 	clear:both;
 }
->>>>>>> aa14d43350189fa61a0109d99d76557bdad4eb53
