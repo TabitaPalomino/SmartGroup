@@ -8,7 +8,28 @@
 		
 	</head>
 	<body>
-		
+		<div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> </div>
+			<div id="light" class="modal">
+			<section ID="contactenos"> 
+				<section id="contacdiv">
+					<section id="centroI"><img id="logoIS" src="../IMAGENES/logoSG.png"/></section>
+					<h2 id="contacp">CONTACTATE CON NOSOTROS</h2>
+						<p>Completa el siguiente formulario, para poder contactarnos con usted. Gracias:</p>
+						<section>
+						<input class="correo" type="text" placeholder="Correo Electronico" size="50"/>
+						</section>
+						<section>
+						<input class="correo" type="text" placeholder="celular" size="50"/>
+						</section>
+						<p id="dudas">Escribe tu consulta</p>
+						<section>
+						<input class="area" type="text" placeholder="Escribe aqui tu consulta..." size="200" />
+						</section>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro" onclick="alert('Mensaje enviado')"><a href="SolicitarNuevoCurso.html">Enviar</a></button></a>
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><button id="Bregistro"><a href="SolicitarNuevoCurso.html">Cancelar</a></button></a>
+				</section>
+			</section>
+			</div>
 		
 		<header id="pcl_cabecera">
 				<div id="logo">
@@ -17,7 +38,7 @@
 				<div class="perfilEstudiante">
 					<section class="nombreEstudiante">
 						<h4>Lisa</h4><h4>Gherardini</h4>
-						<a href=""><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
+						<a href="EditarPerfil.html"><img width="35" src="../IMAGENES/configurarCuenta.png"/></a>
 						<a href="PaginaPrincipal.html"><img width="35" src="../IMAGENES/cerrarS.png"/></a>
 					</section>
 					<section class="fotoEstudiante">
