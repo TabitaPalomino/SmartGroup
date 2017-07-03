@@ -151,7 +151,40 @@ a{
 	min-height:240px;
 }
 
+
+/*BENEFICIOS PP*/
+.pPBeneficios{
+	height:100%;
+	clear:both;
+	margin:50px 5px;
+	color: #203077;
+	margin-top:10%;
+}
+
+.pPBeneficiosder{
+	height:10%;
+	margin-left:50%;
+	font-size:12px;
+}
+
+.pPBeneficiosizq{
+	height:10%;
+	width:48%;
+	float:left;
+	font-size:12px;
+}
+
+.pPBeneficiosizq > section, .pPBeneficiosder > section{
+	height:10%;
+	width:48%;
+	float:left;
+}
+
+.pPBeneficiosizq > aside, .pPBeneficiosder > aside{
 	
+	height:10%;
+	margin-left:50%;
+}			
 /* MAQUETACIÓN TALLERES*/
 #pcl_talleres{
 	border-radius:5px;
