@@ -2,7 +2,7 @@
 var Intervalo=10000; 
 var Imagenes=new Array; 
 var IDImagen=0; 
-Imagenes[1]="../IMAGENES/eventosg0.png";
+Imagenes[1]="../IMAGENES/eventosg0.jpg";
 Imagenes[2]="../IMAGENES/eventosg1.png"; 
 Imagenes[3]="../IMAGENES/eventosg2.png";
 

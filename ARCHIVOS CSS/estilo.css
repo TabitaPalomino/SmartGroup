@@ -16,7 +16,9 @@ h1{
     padding-left: 25px;
 	color:white;
 }
-
+.terminofondo{
+	background-image:url(../IMAGENES/fondoBlanco.jpg);
+}
 #pcl_contenedor{
 	width:80%;
 	margin:0px auto;
